@@ -1,0 +1,1407 @@
+Found callsite[0] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 283 Method name: baseConfig.getAppConfigurationEntry(name)
+Inferred parameter values: 
+
+Found callsite[1] in File: org.apache.hadoop.fs.viewfs.ViewFs.java LineNum: 243 Method name: conf.get(Constants.CONFIG_VIEWFS_RENAME_STRATEGY,            ViewFileSystem.RenameStrategy.SAME_MOUNTPOINT.toString())
+Inferred parameter values: fs.viewfs.rename.strategy, 
+
+Found callsite[2] in File: org.apache.hadoop.ha.ZKFailoverController.java LineNum: 371 Method name: conf.get(ZK_PARENT_ZNODE_KEY,        ZK_PARENT_ZNODE_DEFAULT)
+Inferred parameter values: ha.zookeeper.parent-znode, /hadoop-ha, 
+
+Found callsite[3] in File: org.apache.hadoop.ipc.Server.java LineNum: 1177 Method name: conf.getInt(        CommonConfigurationKeysPublic.IPC_SERVER_LISTEN_QUEUE_SIZE_KEY,        CommonConfigurationKeysPublic.IPC_SERVER_LISTEN_QUEUE_SIZE_DEFAULT)
+Inferred parameter values: ipc.server.listen.queue.size, 
+
+Found callsite[4] in File: org.apache.hadoop.security.authentication.client.KerberosAuthenticator.java LineNum: 106 Method name: getOSLoginModuleName()
+Inferred parameter values: 
+
+Found callsite[5] in File: org.apache.hadoop.crypto.key.kms.LoadBalancingKMSClientProvider.java LineNum: 152 Method name: getInt(                  CommonConfigurationKeysPublic.                  KMS_CLIENT_FAILOVER_MAX_RETRIES_KEY, providers.length)
+Inferred parameter values: hadoop.security.kms.client.failover.max.retries, 
+
+Found callsite[6] in File: org.apache.hadoop.metrics.ganglia.GangliaContext31.java LineNum: 62 Method name: conf.get("dfs.datanode.dns.interface","default")
+Inferred parameter values: dfs.datanode.dns.interface, default, 
+
+Found callsite[7] in File: org.apache.hadoop.crypto.CryptoCodec.java LineNum: 116 Method name: conf.get(configName)
+Inferred parameter values: hadoop.security.crypto.codec.classes, 
+
+Found callsite[8] in File: org.apache.hadoop.ipc.Client.java LineNum: 267 Method name: conf.getInt(CommonConfigurationKeys.IPC_CLIENT_RPC_TIMEOUT_KEY,            CommonConfigurationKeys.IPC_CLIENT_RPC_TIMEOUT_DEFAULT)
+Inferred parameter values: ipc.client.rpc-timeout.ms, 
+
+Found callsite[9] in File: org.apache.hadoop.ipc.Server.java LineNum: 3571 Method name: conf.getInt(          CommonConfigurationKeysPublic.IPC_CLIENT_IDLETHRESHOLD_KEY,          CommonConfigurationKeysPublic.IPC_CLIENT_IDLETHRESHOLD_DEFAULT)
+Inferred parameter values: ipc.client.idlethreshold, 
+
+Found callsite[10] in File: org.apache.hadoop.http.HttpServer.java LineNum: 224 Method name: conf.getBoolean(CommonConfigurationKeysPublic.HADOOP_SSL_ENABLED_KEY,          CommonConfigurationKeysPublic.HADOOP_SSL_ENABLED_DEFAULT)
+Inferred parameter values: hadoop.ssl.enabled, 
+
+Found callsite[11] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 697 Method name: conf.get(USER_SEARCH_FILTER_KEY, USER_SEARCH_FILTER_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.search.filter.user, (&(objectClass=user)(sAMAccountName={0})), 
+
+Found callsite[12] in File: org.apache.hadoop.io.compress.GzipCodec.java LineNum: 155 Method name: conf.getInt(IO_FILE_BUFFER_SIZE_KEY,                                      IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[13] in File: org.apache.hadoop.fs.shell.Delete.java LineNum: 131 Method name: getLong(            HADOOP_SHELL_SAFELY_DELETE_LIMIT_NUM_FILES,            HADOOP_SHELL_SAFELY_DELETE_LIMIT_NUM_FILES_DEFAULT)
+Inferred parameter values: hadoop.shell.safely.delete.limit.num.files, 
+
+Found callsite[14] in File: org.apache.hadoop.conf.ReconfigurationServlet.java LineNum: 177 Method name: oldConf.                                                         getRaw(param)
+Inferred parameter values: 
+
+Found callsite[15] in File: org.apache.hadoop.ha.HealthMonitor.java LineNum: 121 Method name: conf.getLong(        HA_HM_CHECK_INTERVAL_KEY,        HA_HM_CHECK_INTERVAL_DEFAULT)
+Inferred parameter values: ha.health-monitor.check-interval.ms, 
+
+Found callsite[16] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 1650 Method name: conf.getInt(IO_FILE_BUFFER_SIZE_KEY, IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[17] in File: org.apache.hadoop.http.HttpServer.java LineNum: 932 Method name: conf.getBoolean(        CommonConfigurationKeys.HADOOP_SECURITY_AUTHORIZATION, false)
+Inferred parameter values: 
+
+Found callsite[18] in File: org.apache.hadoop.ipc.Client.java LineNum: 1660 Method name: conf.getBoolean(          CommonConfigurationKeysPublic.IPC_CLIENT_LOW_LATENCY,          CommonConfigurationKeysPublic.IPC_CLIENT_LOW_LATENCY_DEFAULT          )
+Inferred parameter values: ipc.client.low-latency, 
+
+Found callsite[19] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 201 Method name: conf.getInt(ZK_DTSM_ZK_CONNECTION_TIMEOUT,                        ZK_DTSM_ZK_CONNECTION_TIMEOUT_DEFAULT)
+Inferred parameter values: zk-dt-secret-manager.zkConnectionTimeout, 
+
+Found callsite[20] in File: org.apache.hadoop.crypto.key.kms.server.EagerKeyGeneratorKeyProviderCryptoExtension.java LineNum: 97 Method name: conf.getFloat(KMS_KEY_CACHE_LOW_WATERMARK,                  KMS_KEY_CACHE_LOW_WATERMARK_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[21] in File: org.apache.hadoop.security.ssl.SSLFactory.java LineNum: 166 Method name: conf.get(SSL_HOSTNAME_VERIFIER_KEY, "DEFAULT")
+Inferred parameter values: hadoop.ssl.hostname.verifier, DEFAULT, 
+
+Found callsite[22] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 1333 Method name: getInt(IO_FILE_BUFFER_SIZE_KEY,        IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[23] in File: org.apache.hadoop.fs.TrashPolicy.java LineNum: 140 Method name: conf.getClass(        "fs.trash.classname", TrashPolicyDefault.class, TrashPolicy.class)
+Inferred parameter values: fs.trash.classname, 
+
+Found callsite[24] in File: org.apache.hadoop.ha.ZKFCRpcServer.java LineNum: 64 Method name: conf.getBoolean(        CommonConfigurationKeys.HADOOP_SECURITY_AUTHORIZATION, false)
+Inferred parameter values: 
+
+Found callsite[25] in File: org.apache.hadoop.security.Groups.java LineNum: 166 Method name: conf.get(        CommonConfigurationKeys.HADOOP_USER_GROUP_STATIC_OVERRIDES,        CommonConfigurationKeys.HADOOP_USER_GROUP_STATIC_OVERRIDES_DEFAULT)
+Inferred parameter values: hadoop.user.group.static.mapping.overrides, dr.who=;, 
+
+Found callsite[26] in File: org.apache.hadoop.crypto.key.kms.server.KMSACLs.java LineNum: 101 Method name: conf.get(aclType.getBlacklistConfigKey())
+Inferred parameter values: 
+
+Found callsite[27] in File: org.apache.hadoop.fs.shell.FsCommand.java LineNum: 110 Method name: get(FS_DEFAULT_NAME_KEY)
+Inferred parameter values: fs.defaultFS, 
+
+Found callsite[28] in File: org.apache.hadoop.security.SecurityUtil.java LineNum: 243 Method name: conf.get(HADOOP_SECURITY_DNS_INTERFACE_KEY)
+Inferred parameter values: hadoop.security.dns.interface, 
+
+Found callsite[29] in File: org.apache.hadoop.http.HttpServer.java LineNum: 251 Method name: conf.getInt(HTTP_MAX_THREADS, -1)
+Inferred parameter values: hadoop.http.max.threads, 
+
+Found callsite[30] in File: org.apache.hadoop.http.HttpServer2.java LineNum: 588 Method name: conf.getClasses(FILTER_INITIALIZER_PROPERTY)
+Inferred parameter values: hadoop.http.filter.initializers, 
+
+Found callsite[31] in File: org.apache.hadoop.crypto.key.kms.server.KMSAudit.java LineNum: 83 Method name: conf.getLong(KMSConfiguration.KMS_AUDIT_AGGREGATION_WINDOW,        KMSConfiguration.KMS_AUDIT_AGGREGATION_WINDOW_DEFAULT)
+Inferred parameter values: hadoop.kms.audit.aggregation.window.ms, 
+
+Found callsite[32] in File: org.apache.hadoop.ipc.Client.java LineNum: 1664 Method name: conf.getBoolean(          CommonConfigurationKeys.IPC_CLIENT_PING_KEY,          CommonConfigurationKeys.IPC_CLIENT_PING_DEFAULT)
+Inferred parameter values: ipc.client.ping, 
+
+Found callsite[33] in File: org.apache.hadoop.ipc.Server.java LineNum: 3577 Method name: conf.getInt(          CommonConfigurationKeysPublic.IPC_CLIENT_CONNECTION_MAXIDLETIME_KEY,          CommonConfigurationKeysPublic.IPC_CLIENT_CONNECTION_MAXIDLETIME_DEFAULT)
+Inferred parameter values: ipc.client.connection.maxidletime, 
+
+Found callsite[34] in File: org.apache.hadoop.util.curator.ZKCuratorManager.java LineNum: 137 Method name: conf.get(CommonConfigurationKeys.ZK_ADDRESS)
+Inferred parameter values: hadoop.zk.address, 
+
+Found callsite[35] in File: org.apache.hadoop.conf.ReconfigurationServlet.java LineNum: 161 Method name: oldConf.getRaw(param)
+Inferred parameter values: 
+
+Found callsite[36] in File: org.apache.hadoop.metrics.ganglia.GangliaContext31.java LineNum: 58 Method name: conf.get("slave.host.name")
+Inferred parameter values: slave.host.name, 
+
+Found callsite[37] in File: org.apache.hadoop.http.HttpServer.java LineNum: 706 Method name: conf.get(usernameConfKey)
+Inferred parameter values: 
+
+Found callsite[38] in File: org.apache.hadoop.io.compress.zlib.ZlibFactory.java LineNum: 137 Method name: conf.getEnum("zlib.compress.strategy",        CompressionStrategy.DEFAULT_STRATEGY)
+Inferred parameter values: zlib.compress.strategy, 
+
+Found callsite[39] in File: org.apache.hadoop.security.ShellBasedIdMapping.java LineNum: 121 Method name: conf.get(IdMappingConstant.STATIC_ID_MAPPING_FILE_KEY,            IdMappingConstant.STATIC_ID_MAPPING_FILE_DEFAULT)
+Inferred parameter values: static.id.mapping.file, /etc/nfs.map, 
+
+Found callsite[40] in File: org.apache.hadoop.util.curator.ZKCuratorManager.java LineNum: 146 Method name: conf.getInt(        CommonConfigurationKeys.ZK_RETRY_INTERVAL_MS,        CommonConfigurationKeys.ZK_RETRY_INTERVAL_MS_DEFAULT)
+Inferred parameter values: hadoop.zk.retry-interval-ms, 
+
+Found callsite[41] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 188 Method name: conf.getInt(ZK_DTSM_ZK_NUM_RETRIES, ZK_DTSM_ZK_NUM_RETRIES_DEFAULT)
+Inferred parameter values: zk-dt-secret-manager.zkNumRetries, 
+
+Found callsite[42] in File: org.apache.hadoop.fs.sftp.SFTPFileSystem.java LineNum: 145 Method name: conf.getInt(FS_SFTP_HOST_PORT, DEFAULT_SFTP_PORT)
+Inferred parameter values: fs.sftp.host.port, 
+
+Found callsite[43] in File: org.apache.hadoop.fs.sftp.SFTPFileSystem.java LineNum: 100 Method name: conf.get(FS_SFTP_HOST, null)
+Inferred parameter values: fs.sftp.host, 
+
+Found callsite[44] in File: org.apache.hadoop.fs.FSDataOutputStreamBuilder.java LineNum: 77 Method name: getInt(IO_FILE_BUFFER_SIZE_KEY,        IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[45] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 712 Method name: conf.get(POSIX_UID_ATTR_KEY, POSIX_UID_ATTR_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.posix.attr.uid.name, uidNumber, 
+
+Found callsite[46] in File: org.apache.hadoop.security.ssl.FileBasedKeyStoresFactory.java LineNum: 138 Method name: conf.getBoolean(SSLFactory.SSL_REQUIRE_CLIENT_CERT_KEY,          SSLFactory.DEFAULT_SSL_REQUIRE_CLIENT_CERT)
+Inferred parameter values: hadoop.ssl.require.client.cert, 
+
+Found callsite[47] in File: org.apache.hadoop.ipc.Client.java LineNum: 1657 Method name: conf.getBoolean(          CommonConfigurationKeysPublic.IPC_CLIENT_TCPNODELAY_KEY,          CommonConfigurationKeysPublic.IPC_CLIENT_TCPNODELAY_DEFAULT)
+Inferred parameter values: ipc.client.tcpnodelay, 
+
+Found callsite[48] in File: org.apache.hadoop.ipc.Server.java LineNum: 3580 Method name: conf.getInt(          CommonConfigurationKeysPublic.IPC_CLIENT_KILL_MAX_KEY,          CommonConfigurationKeysPublic.IPC_CLIENT_KILL_MAX_DEFAULT)
+Inferred parameter values: ipc.client.kill.max, 
+
+Found callsite[49] in File: org.apache.hadoop.security.SecurityUtil.java LineNum: 308 Method name: conf.get(userNameKey, System        .getProperty("user.name"))
+Inferred parameter values: 
+
+Found callsite[50] in File: org.apache.hadoop.security.ssl.FileBasedKeyStoresFactory.java LineNum: 150 Method name: conf.get(locationProperty, "")
+Inferred parameter values: , 
+
+Found callsite[51] in File: org.apache.hadoop.crypto.CryptoCodec.java LineNum: 100 Method name: conf.get(HADOOP_SECURITY_CRYPTO_CIPHER_SUITE_KEY,         HADOOP_SECURITY_CRYPTO_CIPHER_SUITE_DEFAULT)
+Inferred parameter values: hadoop.security.crypto.cipher.suite, AES/CTR/NoPadding, 
+
+Found callsite[52] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 141 Method name: conf.getLong(DelegationTokenManager.MAX_LIFETIME,            DelegationTokenManager.MAX_LIFETIME_DEFAULT)
+Inferred parameter values: delegation-token.max-lifetime.sec, 
+
+Found callsite[53] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 691 Method name: conf.getTrimmed(GROUP_BASE_DN_KEY, baseDN)
+Inferred parameter values: hadoop.security.group.mapping.ldap.groupbase, 
+
+Found callsite[54] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 328 Method name: conf.getInts(ns + "." + IPC_DECAYSCHEDULER_THRESHOLDS_KEY)
+Inferred parameter values: decay-scheduler.thresholds, 
+
+Found callsite[55] in File: org.apache.hadoop.crypto.key.kms.server.KMSWebApp.java LineNum: 163 Method name: kmsConf.get(METRICS_PROCESS_NAME_KEY, METRICS_PROCESS_NAME_DEFAULT)
+Inferred parameter values: hadoop.kms.metrics.process.name, KMS, 
+
+Found callsite[56] in File: org.apache.hadoop.crypto.key.kms.server.KMSWebApp.java LineNum: 216 Method name: kmsConf          .getInt(KeyProvider.DEFAULT_BITLENGTH_NAME,              KeyProvider.DEFAULT_BITLENGTH)
+Inferred parameter values: hadoop.security.key.default.bitlength, 
+
+Found callsite[57] in File: org.apache.hadoop.fs.ftp.FTPFileSystem.java LineNum: 141 Method name: conf.get(FS_FTP_PASSWORD_PREFIX + host)
+Inferred parameter values: 
+
+Found callsite[58] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 223 Method name: config.get(ZK_DTSM_ZK_KERBEROS_PRINCIPAL, "")
+Inferred parameter values: zk-dt-secret-manager.kerberos.principal, , 
+
+Found callsite[59] in File: org.apache.hadoop.ipc.Server.java LineNum: 694 Method name: conf.getClass(schedulerKeyname, null)
+Inferred parameter values: scheduler.impl, 
+
+Found callsite[60] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 710 Method name: conf.getInt(GROUP_HIERARCHY_LEVELS_KEY, GROUP_HIERARCHY_LEVELS_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.search.group.hierarchy.levels, 
+
+Found callsite[61] in File: org.apache.hadoop.fs.FileContext.java LineNum: 264 Method name: conf.getBoolean(        CommonConfigurationKeys.FS_CLIENT_RESOLVE_REMOTE_SYMLINKS_KEY,        CommonConfigurationKeys.FS_CLIENT_RESOLVE_REMOTE_SYMLINKS_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[62] in File: org.apache.hadoop.security.authorize.ServiceAuthorizationManager.java LineNum: 165 Method name: conf.get(      CommonConfigurationKeys.HADOOP_SECURITY_SERVICE_AUTHORIZATION_DEFAULT_BLOCKED_ACL, "")
+Inferred parameter values: security.service.authorization.default.acl.blocked, , 
+
+Found callsite[63] in File: org.apache.hadoop.security.SecurityUtil.java LineNum: 303 Method name: conf.get(keytabFileKey)
+Inferred parameter values: 
+
+Found callsite[64] in File: org.apache.hadoop.fs.sftp.SFTPFileSystem.java LineNum: 148 Method name: conf.get(FS_SFTP_KEYFILE, null)
+Inferred parameter values: fs.sftp.keyfile, 
+
+Found callsite[65] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 752 Method name: sslConf.get(LDAP_KEYSTORE_KEY, LDAP_KEYSTORE_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.ssl.keystore, , 
+
+Found callsite[66] in File: org.apache.hadoop.fs.TrashPolicy.java LineNum: 124 Method name: conf.getClass(        "fs.trash.classname", TrashPolicyDefault.class, TrashPolicy.class)
+Inferred parameter values: fs.trash.classname, 
+
+Found callsite[67] in File: org.apache.hadoop.ha.FailoverController.java LineNum: 71 Method name: conf.getInt(        CommonConfigurationKeys.HA_FC_GRACEFUL_FENCE_CONNECTION_RETRIES,        CommonConfigurationKeys.HA_FC_GRACEFUL_FENCE_CONNECTION_RETRIES_DEFAULT)
+Inferred parameter values: ha.failover-controller.graceful-fence.connection.retries, 
+
+Found callsite[68] in File: org.apache.hadoop.security.token.delegation.web.DelegationTokenAuthenticationHandler.java LineNum: 150 Method name: conf.get(TOKEN_KIND)
+Inferred parameter values: delegation-token.token-kind, 
+
+Found callsite[69] in File: org.apache.hadoop.ipc.Client.java LineNum: 1320 Method name: conf.getInt(        CommonConfigurationKeys.IPC_CLIENT_ASYNC_CALLS_MAX_KEY,        CommonConfigurationKeys.IPC_CLIENT_ASYNC_CALLS_MAX_DEFAULT)
+Inferred parameter values: ipc.client.async.calls.max, 
+
+Found callsite[70] in File: org.apache.hadoop.fs.ftp.FTPFileSystem.java LineNum: 173 Method name: conf.get(FS_FTP_TRANSFER_MODE)
+Inferred parameter values: fs.ftp.transfer.mode, 
+
+Found callsite[71] in File: org.apache.hadoop.conf.ReconfigurationServlet.java LineNum: 167 Method name: oldConf.getRaw(param)
+Inferred parameter values: 
+
+Found callsite[72] in File: org.apache.hadoop.security.KDiag.java LineNum: 486 Method name: conf.get(HADOOP_TOKEN_FILES)
+Inferred parameter values: hadoop.token.files, 
+
+Found callsite[73] in File: org.apache.hadoop.fs.ftp.FTPFileSystem.java LineNum: 139 Method name: conf.getInt(FS_FTP_HOST_PORT, FTP.DEFAULT_PORT)
+Inferred parameter values: fs.ftp.host.port, 
+
+Found callsite[74] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 731 Method name: conf.getClass(LDAP_CTX_FACTORY_CLASS_KEY,        LDAP_CTX_FACTORY_CLASS_DEFAULT, InitialContextFactory.class)
+Inferred parameter values: hadoop.security.group.mapping.ldap.ctx.factory.class, 
+
+Found callsite[75] in File: org.apache.hadoop.ipc.Server.java LineNum: 2974 Method name: conf.getInt(        CommonConfigurationKeys.IPC_SERVER_RPC_MAX_RESPONSE_SIZE_KEY,        CommonConfigurationKeys.IPC_SERVER_RPC_MAX_RESPONSE_SIZE_DEFAULT)
+Inferred parameter values: ipc.server.max.response.size, 
+
+Found callsite[76] in File: org.apache.hadoop.security.ssl.FileBasedKeyStoresFactory.java LineNum: 143 Method name: conf.get(resolvePropertyName(mode, SSL_KEYSTORE_TYPE_TPL_KEY),               DEFAULT_KEYSTORE_TYPE)
+Inferred parameter values: jks, 
+
+Found callsite[77] in File: org.apache.hadoop.io.compress.CompressionCodecFactory.java LineNum: 124 Method name: conf.get(        CommonConfigurationKeys.IO_COMPRESSION_CODECS_KEY)
+Inferred parameter values: io.compression.codecs, 
+
+Found callsite[78] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 2799 Method name: conf.get(CommonConfigurationKeys.IO_SORT_MB_KEY)
+Inferred parameter values: 
+
+Found callsite[79] in File: org.apache.hadoop.crypto.JceAesCtrCryptoCodec.java LineNum: 63 Method name: conf.get(HADOOP_SECURITY_CRYPTO_JCE_PROVIDER_KEY)
+Inferred parameter values: hadoop.security.crypto.jce.provider, 
+
+Found callsite[80] in File: org.apache.hadoop.crypto.key.kms.server.KMSWebApp.java LineNum: 192 Method name: kmsConf.getLong(KMSConfiguration.KEY_CACHE_TIMEOUT_KEY,                KMSConfiguration.KEY_CACHE_TIMEOUT_DEFAULT)
+Inferred parameter values: hadoop.kms.cache.timeout.ms, 
+
+Found callsite[81] in File: org.apache.hadoop.http.HttpServer.java LineNum: 696 Method name: sslConf.get("ssl.server.keystore.password", "")
+Inferred parameter values: ssl.server.keystore.password, , 
+
+Found callsite[82] in File: org.apache.hadoop.io.IOUtils.java LineNum: 128 Method name: conf.getInt(        IO_FILE_BUFFER_SIZE_KEY, IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[83] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 734 Method name: conf.getInt(LDAP_NUM_ATTEMPTS_KEY,        LDAP_NUM_ATTEMPTS_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.num.attempts, 
+
+Found callsite[84] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 157 Method name: conf.get(ZK_DTSM_ZK_CONNECTION_STRING)
+Inferred parameter values: zk-dt-secret-manager.zkConnectionString, 
+
+Found callsite[85] in File: org.apache.hadoop.util.KMSUtil.java LineNum: 53 Method name: conf.getTrimmed(configKeyName)
+Inferred parameter values: 
+
+Found callsite[86] in File: org.apache.hadoop.fs.shell.FsCommand.java LineNum: 106 Method name: getBoolean(        HADOOP_SHELL_MISSING_DEFAULT_FS_WARNING_KEY,        HADOOP_SHELL_MISSING_DEFAULT_FS_WARNING_DEFAULT)
+Inferred parameter values: hadoop.shell.missing.defaultFs.warning, 
+
+Found callsite[87] in File: org.apache.hadoop.io.nativeio.NativeIO.java LineNum: 191 Method name: conf.getLong(            CommonConfigurationKeys.HADOOP_SECURITY_UID_NAME_CACHE_TIMEOUT_KEY,            CommonConfigurationKeys.HADOOP_SECURITY_UID_NAME_CACHE_TIMEOUT_DEFAULT)
+Inferred parameter values: hadoop.security.uid.cache.secs, 
+
+Found callsite[88] in File: org.apache.hadoop.io.ObjectWritable.java LineNum: 111 Method name: getClassByName(className)
+Inferred parameter values: 
+
+Found callsite[89] in File: org.apache.hadoop.io.compress.Lz4Codec.java LineNum: 211 Method name: conf.getInt(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_BUFFERSIZE_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_BUFFERSIZE_DEFAULT)
+Inferred parameter values: io.compression.codec.lz4.buffersize, 
+
+Found callsite[90] in File: org.apache.hadoop.security.SecurityUtil.java LineNum: 244 Method name: conf.get(HADOOP_SECURITY_DNS_NAMESERVER_KEY)
+Inferred parameter values: hadoop.security.dns.nameserver, 
+
+Found callsite[91] in File: org.apache.hadoop.crypto.key.kms.server.KMSWebApp.java LineNum: 164 Method name: kmsConf.get(METRICS_SESSION_ID_KEY)
+Inferred parameter values: hadoop.kms.metrics.session.id, 
+
+Found callsite[92] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 492 Method name: conf.get(CommonConfigurationKeys.KERBEROS_TICKET_CACHE_PATH)
+Inferred parameter values: hadoop.security.kerberos.ticket.cache.path, 
+
+Found callsite[93] in File: org.apache.hadoop.nfs.NfsExports.java LineNum: 49 Method name: conf.get(          CommonConfigurationKeys.NFS_EXPORTS_ALLOWED_HOSTS_KEY,          CommonConfigurationKeys.NFS_EXPORTS_ALLOWED_HOSTS_KEY_DEFAULT)
+Inferred parameter values: nfs.exports.allowed.hosts, * rw, 
+
+Found callsite[94] in File: org.apache.hadoop.crypto.key.kms.server.KMSWebApp.java LineNum: 195 Method name: kmsConf.getLong(KMSConfiguration.CURR_KEY_CACHE_TIMEOUT_KEY,                KMSConfiguration.CURR_KEY_CACHE_TIMEOUT_DEFAULT)
+Inferred parameter values: hadoop.kms.current.key.cache.timeout.ms, 
+
+Found callsite[95] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 147 Method name: conf.getLong(ZK_DTSM_ZK_SHUTDOWN_TIMEOUT,        ZK_DTSM_ZK_SHUTDOWN_TIMEOUT_DEFAULT)
+Inferred parameter values: zk-dt-secret-manager.zkShutdownTimeout, 
+
+Found callsite[96] in File: org.apache.hadoop.util.curator.ZKCuratorManager.java LineNum: 142 Method name: conf.getInt(CommonConfigurationKeys.ZK_NUM_RETRIES,        CommonConfigurationKeys.ZK_NUM_RETRIES_DEFAULT)
+Inferred parameter values: hadoop.zk.num-retries, 
+
+Found callsite[97] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 2468 Method name: getLong("fs.local.block.size", 32 * 1024 * 1024)
+Inferred parameter values: fs.local.block.size, 
+
+Found callsite[98] in File: org.apache.hadoop.fs.shell.CommandWithDestination.java LineNum: 502 Method name: getInt(IO_FILE_BUFFER_SIZE_KEY,                            IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[99] in File: org.apache.hadoop.ipc.Server.java LineNum: 709 Method name: conf.getClass(schedulerKeyname,        DefaultRpcScheduler.class)
+Inferred parameter values: scheduler.impl, 
+
+Found callsite[100] in File: org.apache.hadoop.security.Groups.java LineNum: 107 Method name: conf.getClass(CommonConfigurationKeys.HADOOP_SECURITY_GROUP_MAPPING,                         ShellBasedUnixGroupsMapping.class,                         GroupMappingServiceProvider.class)
+Inferred parameter values: 
+
+Found callsite[101] in File: org.apache.hadoop.security.authorize.ServiceAuthorizationManager.java LineNum: 161 Method name: conf.get(        CommonConfigurationKeys.HADOOP_SECURITY_SERVICE_AUTHORIZATION_DEFAULT_ACL,        AccessControlList.WILDCARD_ACL_VALUE)
+Inferred parameter values: security.service.authorization.default.acl, *, 
+
+Found callsite[102] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 2800 Method name: conf.getInt(CommonConfigurationKeys.IO_SORT_MB_KEY,          CommonConfigurationKeys.SEQ_IO_SORT_MB_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[103] in File: org.apache.hadoop.crypto.key.kms.server.KMSAudit.java LineNum: 123 Method name: conf.getTrimmedStringCollection(KMSConfiguration.KMS_AUDIT_LOGGER_KEY)
+Inferred parameter values: hadoop.kms.audit.logger, 
+
+Found callsite[104] in File: org.apache.hadoop.conf.ReconfigurationServlet.java LineNum: 191 Method name: newConf.getRaw(param)
+Inferred parameter values: 
+
+Found callsite[105] in File: org.apache.hadoop.crypto.key.kms.KMSClientProvider.java LineNum: 452 Method name: conf.getInt(            CommonConfigurationKeysPublic.KMS_CLIENT_TIMEOUT_SECONDS,            CommonConfigurationKeysPublic.KMS_CLIENT_TIMEOUT_DEFAULT)
+Inferred parameter values: hadoop.security.kms.client.timeout, 
+
+Found callsite[106] in File: org.apache.hadoop.crypto.key.kms.server.KMSACLs.java LineNum: 99 Method name: conf.get(aclType.getAclConfigKey(), ACL_DEFAULT)
+Inferred parameter values: *, 
+
+Found callsite[107] in File: org.apache.hadoop.fs.HarFileSystem.java LineNum: 106 Method name: conf.getInt(METADATA_CACHE_ENTRIES_KEY, METADATA_CACHE_ENTRIES_DEFAULT)
+Inferred parameter values: fs.har.metadatacache.entries, 
+
+Found callsite[108] in File: org.apache.hadoop.fs.viewfs.ViewFileSystem.java LineNum: 284 Method name: conf.get(Constants.CONFIG_VIEWFS_RENAME_STRATEGY,              RenameStrategy.SAME_MOUNTPOINT.toString())
+Inferred parameter values: fs.viewfs.rename.strategy, 
+
+Found callsite[109] in File: org.apache.hadoop.util.LineReader.java LineNum: 141 Method name: conf.getInt(IO_FILE_BUFFER_SIZE_KEY, DEFAULT_BUFFER_SIZE)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[110] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 2668 Method name: this.conf.getBoolean(          IO_SKIP_CHECKSUM_ERRORS_KEY, IO_SKIP_CHECKSUM_ERRORS_DEFAULT)
+Inferred parameter values: io.skip.checksum.errors, 
+
+Found callsite[111] in File: org.apache.hadoop.http.HttpServer.java LineNum: 698 Method name: sslConf.get("ssl.server.keystore.type", "jks")
+Inferred parameter values: ssl.server.keystore.type, jks, 
+
+Found callsite[112] in File: org.apache.hadoop.crypto.key.kms.server.KMSAuthenticationFilter.java LineNum: 62 Method name: conf.get(name)
+Inferred parameter values: 
+
+Found callsite[113] in File: org.apache.hadoop.security.ssl.SSLFactory.java LineNum: 111 Method name: conf.getBoolean(SSL_REQUIRE_CLIENT_CERT_KEY,                                        DEFAULT_SSL_REQUIRE_CLIENT_CERT)
+Inferred parameter values: hadoop.ssl.require.client.cert, 
+
+Found callsite[114] in File: org.apache.hadoop.fs.TrashPolicyDefault.java LineNum: 87 Method name: conf.getFloat(        FS_TRASH_INTERVAL_KEY, FS_TRASH_INTERVAL_DEFAULT)
+Inferred parameter values: fs.trash.interval, 
+
+Found callsite[115] in File: org.apache.hadoop.io.compress.Lz4Codec.java LineNum: 144 Method name: conf.getBoolean(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_USELZ4HC_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_USELZ4HC_DEFAULT)
+Inferred parameter values: io.compression.codec.lz4.use.lz4hc, 
+
+Found callsite[116] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 665 Method name: conf.getStrings(LDAP_URL_KEY, LDAP_URL_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.url, , 
+
+Found callsite[117] in File: org.apache.hadoop.security.KDiag.java LineNum: 680 Method name: getTrimmed(saslPropsResolverKey)
+Inferred parameter values: 
+
+Found callsite[118] in File: org.apache.hadoop.security.ssl.SSLFactory.java LineNum: 116 Method name: conf.getClass(KEYSTORES_FACTORY_CLASS_KEY,                      FileBasedKeyStoresFactory.class, KeyStoresFactory.class)
+Inferred parameter values: hadoop.ssl.keystores.factory.class, 
+
+Found callsite[119] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 677 Method name: conf.get(BIND_USER_KEY, BIND_USER_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.bind.user, , 
+
+Found callsite[120] in File: org.apache.hadoop.fs.ftp.FTPFileSystem.java LineNum: 117 Method name: conf          .get(FS_FTP_PASSWORD_PREFIX + host, null)
+Inferred parameter values: 
+
+Found callsite[121] in File: org.apache.hadoop.http.HttpServer2.java LineNum: 418 Method name: conf.getInt(HTTP_MAX_THREADS, -1)
+Inferred parameter values: hadoop.http.max.threads, 
+
+Found callsite[122] in File: org.apache.hadoop.io.compress.SnappyCodec.java LineNum: 183 Method name: conf.getInt(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_SNAPPY_BUFFERSIZE_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_SNAPPY_BUFFERSIZE_DEFAULT)
+Inferred parameter values: io.compression.codec.snappy.buffersize, 
+
+Found callsite[123] in File: org.apache.hadoop.ipc.Server.java LineNum: 2970 Method name: conf.getInt(          CommonConfigurationKeys.IPC_SERVER_HANDLER_QUEUE_SIZE_KEY,          CommonConfigurationKeys.IPC_SERVER_HANDLER_QUEUE_SIZE_DEFAULT)
+Inferred parameter values: ipc.server.handler.queue.size, 
+
+Found callsite[124] in File: org.apache.hadoop.fs.permission.FsPermission.java LineNum: 261 Method name: conf.getInt(DEPRECATED_UMASK_LABEL, Integer.MIN_VALUE)
+Inferred parameter values: dfs.umask, 
+
+Found callsite[125] in File: org.apache.hadoop.fs.sftp.SFTPFileSystem.java LineNum: 131 Method name: conf.getInt(FS_SFTP_CONNECTION_MAX, DEFAULT_MAX_CONNECTION)
+Inferred parameter values: fs.sftp.connection.max, 
+
+Found callsite[126] in File: org.apache.hadoop.io.nativeio.NativeIO.java LineNum: 184 Method name: conf.getBoolean(            WORKAROUND_NON_THREADSAFE_CALLS_KEY,            WORKAROUND_NON_THREADSAFE_CALLS_DEFAULT)
+Inferred parameter values: hadoop.workaround.non.threadsafe.getpwuid, 
+
+Found callsite[127] in File: org.apache.hadoop.nfs.NfsExports.java LineNum: 52 Method name: conf.getInt(Nfs3Constant.NFS_EXPORTS_CACHE_SIZE_KEY,          Nfs3Constant.NFS_EXPORTS_CACHE_SIZE_DEFAULT)
+Inferred parameter values: nfs.exports.cache.size, 
+
+Found callsite[128] in File: org.apache.hadoop.tracing.TraceUtils.java LineNum: 71 Method name: conf.get(key)
+Inferred parameter values: 
+
+Found callsite[129] in File: org.apache.hadoop.security.token.delegation.web.DelegationTokenManager.java LineNum: 72 Method name: conf.getLong(UPDATE_INTERVAL, UPDATE_INTERVAL_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[130] in File: org.apache.hadoop.ipc.WeightedTimeCostProvider.java LineNum: 88 Method name: conf.getInt(key, defaultValue)
+Inferred parameter values: .weighted-cost., 
+
+Found callsite[131] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 2803 Method name: conf.getInt(CommonConfigurationKeys.SEQ_IO_SORT_MB_KEY,          CommonConfigurationKeys.SEQ_IO_SORT_MB_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[132] in File: org.apache.hadoop.security.authorize.ProxyServers.java LineNum: 38 Method name: conf.getTrimmedStrings(CONF_HADOOP_PROXYSERVERS)
+Inferred parameter values: hadoop.proxyservers, 
+
+Found callsite[133] in File: org.apache.hadoop.security.authorize.DefaultImpersonationProvider.java LineNum: 84 Method name: conf.getValByRegex(usersGroupsRegEx)
+Inferred parameter values: [^.]*(|), 
+
+Found callsite[134] in File: org.apache.hadoop.metrics2.sink.RollingFileSystemSink.java LineNum: 319 Method name: conf.get(properties.getString(property))
+Inferred parameter values: 
+
+Found callsite[135] in File: org.apache.hadoop.security.authentication.client.KerberosAuthenticator.java LineNum: 117 Method name: System.getenv("KRB5CCNAME")
+Inferred parameter values: KRB5CCNAME, 
+
+Found callsite[136] in File: org.apache.hadoop.security.WhitelistBasedResolver.java LineNum: 100 Method name: conf.get(HADOOP_SECURITY_SASL_VARIABLEWHITELIST_FILE,          VARIABLEWHITELIST_DEFAULT_LOCATION)
+Inferred parameter values: hadoop.security.sasl.variablewhitelist.file, /etc/hadoop/whitelist, 
+
+Found callsite[137] in File: org.apache.hadoop.ha.HAAdmin.java LineNum: 337 Method name: conf.getInt(          CommonConfigurationKeys.HA_FC_CLI_CHECK_TIMEOUT_KEY,          CommonConfigurationKeys.HA_FC_CLI_CHECK_TIMEOUT_DEFAULT)
+Inferred parameter values: ha.failover-controller.cli-check.rpc-timeout.ms, 
+
+Found callsite[138] in File: org.apache.hadoop.ipc.Server.java LineNum: 2996 Method name: conf.getBoolean(CommonConfigurationKeys.HADOOP_SECURITY_AUTHORIZATION,                       false)
+Inferred parameter values: 
+
+Found callsite[139] in File: org.apache.hadoop.fs.ftp.FTPFileSystem.java LineNum: 140 Method name: conf.get(FS_FTP_USER_PREFIX + host)
+Inferred parameter values: 
+
+Found callsite[140] in File: org.apache.hadoop.security.AuthenticationFilterInitializer.java LineNum: 83 Method name: conf.get(HttpServer2.BIND_ADDRESS)
+Inferred parameter values: bind.address, 
+
+Found callsite[141] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 919 Method name: getInt(IO_FILE_BUFFER_SIZE_KEY,        IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[142] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 237 Method name: conf.get(FS_DEFAULT_NAME_KEY, DEFAULT_FS)
+Inferred parameter values: 
+
+Found callsite[143] in File: org.apache.hadoop.http.HttpServer.java LineNum: 685 Method name: sslConf.get(          "ssl.server.truststore.location", "")
+Inferred parameter values: ssl.server.truststore.location, , 
+
+Found callsite[144] in File: org.apache.hadoop.crypto.key.kms.server.EagerKeyGeneratorKeyProviderCryptoExtension.java LineNum: 95 Method name: conf.getInt(KMS_KEY_CACHE_SIZE,                  KMS_KEY_CACHE_SIZE_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[145] in File: org.apache.hadoop.util.ReflectionUtils.java LineNum: 106 Method name: conf.getClass()
+Inferred parameter values: 
+
+Found callsite[146] in File: org.apache.hadoop.security.ProviderUtils.java LineNum: 143 Method name: config.get(        CredentialProviderFactory.CREDENTIAL_PROVIDER_PATH)
+Inferred parameter values: hadoop.security.credential.provider.path, 
+
+Found callsite[147] in File: org.apache.hadoop.fs.sftp.SFTPFileSystem.java LineNum: 147 Method name: conf.get(FS_SFTP_PASSWORD_PREFIX + host + "." + user, null)
+Inferred parameter values: 
+
+Found callsite[148] in File: org.apache.hadoop.io.file.tfile.TFile.java LineNum: 143 Method name: conf.getInt(CHUNK_BUF_SIZE_ATTR, 1024 * 1024)
+Inferred parameter values: tfile.io.chunk.size, 
+
+Found callsite[149] in File: org.apache.hadoop.io.compress.zlib.ZlibFactory.java LineNum: 147 Method name: conf.getEnum("zlib.compress.level",        CompressionLevel.DEFAULT_COMPRESSION)
+Inferred parameter values: zlib.compress.level, 
+
+Found callsite[150] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 716 Method name: conf.getInt(DIRECTORY_SEARCH_TIMEOUT,        DIRECTORY_SEARCH_TIMEOUT_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.directory.search.timeout, 
+
+Found callsite[151] in File: org.apache.hadoop.security.SecurityUtil.java LineNum: 689 Method name: conf.get(HADOOP_SECURITY_AUTHENTICATION, "simple")
+Inferred parameter values: hadoop.security.authentication, simple, 
+
+Found callsite[152] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 1316 Method name: getInt(IO_FILE_BUFFER_SIZE_KEY,          IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[153] in File: org.apache.hadoop.crypto.OpensslAesCtrCryptoCodec.java LineNum: 59 Method name: conf.getClass(        HADOOP_SECURITY_SECURE_RANDOM_IMPL_KEY, OsSecureRandom.class,         Random.class)
+Inferred parameter values: hadoop.security.secure.random.impl, 
+
+Found callsite[154] in File: org.apache.hadoop.io.compress.Lz4Codec.java LineNum: 141 Method name: conf.getInt(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_BUFFERSIZE_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_BUFFERSIZE_DEFAULT)
+Inferred parameter values: io.compression.codec.lz4.buffersize, 
+
+Found callsite[155] in File: org.apache.hadoop.security.http.RestCsrfPreventionFilter.java LineNum: 230 Method name: conf.getPropsWithPrefix(confPrefix)
+Inferred parameter values: 
+
+Found callsite[156] in File: org.apache.hadoop.security.ssl.SSLFactory.java LineNum: 135 Method name: conf.get(SSL_CLIENT_CONF_KEY, "ssl-client.xml")
+Inferred parameter values: hadoop.ssl.client.conf, ssl-client.xml, 
+
+Found callsite[157] in File: org.apache.hadoop.ipc.metrics.RpcMetrics.java LineNum: 57 Method name: conf.getInts(        CommonConfigurationKeys.RPC_METRICS_PERCENTILES_INTERVALS_KEY)
+Inferred parameter values: rpc.metrics.percentiles.intervals, 
+
+Found callsite[158] in File: org.apache.hadoop.util.NativeCodeLoader.java LineNum: 102 Method name: conf.getBoolean(CommonConfigurationKeys.IO_NATIVE_LIB_AVAILABLE_KEY,                            CommonConfigurationKeys.IO_NATIVE_LIB_AVAILABLE_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[159] in File: org.apache.hadoop.crypto.key.kms.server.KMSWebApp.java LineNum: 189 Method name: kmsConf.getBoolean(KMSConfiguration.KEY_CACHE_ENABLE,          KMSConfiguration.KEY_CACHE_ENABLE_DEFAULT)
+Inferred parameter values: hadoop.kms.cache.enable, 
+
+Found callsite[160] in File: org.apache.hadoop.security.UserGroupInformation.java LineNum: 323 Method name: conf.get(HADOOP_KERBEROS_MIN_SECONDS_BEFORE_RELOGIN)
+Inferred parameter values: 
+
+Found callsite[161] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 795 Method name: conf.getPassword(alias)
+Inferred parameter values: 
+
+Found callsite[162] in File: org.apache.hadoop.security.UserGroupInformation.java LineNum: 986 Method name: conf.get("hadoop.kerberos.kinit.command", "kinit")
+Inferred parameter values: hadoop.kerberos.kinit.command, kinit, 
+
+Found callsite[163] in File: org.apache.hadoop.fs.AbstractFileSystem.java LineNum: 167 Method name: conf.getClass(fsImplConf, null)
+Inferred parameter values: 
+
+Found callsite[164] in File: org.apache.hadoop.ipc.Server.java LineNum: 2965 Method name: conf.getInt(CommonConfigurationKeys.IPC_MAXIMUM_DATA_LENGTH,        CommonConfigurationKeys.IPC_MAXIMUM_DATA_LENGTH_DEFAULT)
+Inferred parameter values: ipc.maximum.data.length, 
+
+Found callsite[165] in File: org.apache.hadoop.conf.ReconfigurationUtil.java LineNum: 47 Method name: newConf.getRaw(prop)
+Inferred parameter values: 
+
+Found callsite[166] in File: org.apache.hadoop.security.Groups.java LineNum: 122 Method name: conf.getBoolean(          CommonConfigurationKeys.              HADOOP_SECURITY_GROUPS_CACHE_BACKGROUND_RELOAD,          CommonConfigurationKeys.              HADOOP_SECURITY_GROUPS_CACHE_BACKGROUND_RELOAD_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[167] in File: org.apache.hadoop.security.token.delegation.web.DelegationTokenManager.java LineNum: 75 Method name: conf.getLong(REMOVAL_SCAN_INTERVAL, REMOVAL_SCAN_INTERVAL_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[168] in File: org.apache.hadoop.ipc.Server.java LineNum: 3574 Method name: conf.getInt(          CommonConfigurationKeys.IPC_CLIENT_CONNECTION_IDLESCANINTERVAL_KEY,          CommonConfigurationKeys.IPC_CLIENT_CONNECTION_IDLESCANINTERVAL_DEFAULT)
+Inferred parameter values: ipc.client.connection.idle-scan-interval.ms, 
+
+Found callsite[169] in File: org.apache.hadoop.io.file.tfile.Compression.java LineNum: 89 Method name: conf.get(CONF_LZO_CLASS)
+Inferred parameter values: 
+
+Found callsite[170] in File: org.apache.hadoop.fs.permission.FsPermission.java LineNum: 260 Method name: conf.get(UMASK_LABEL)
+Inferred parameter values: fs.permissions.umask-mode, 
+
+Found callsite[171] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 708 Method name: conf.get(GROUP_NAME_ATTR_KEY, GROUP_NAME_ATTR_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.search.attr.group.name, cn, 
+
+Found callsite[172] in File: org.apache.hadoop.io.file.tfile.TFile.java LineNum: 148 Method name: conf.getInt(FS_INPUT_BUF_SIZE_ATTR, 256 * 1024)
+Inferred parameter values: tfile.fs.input.buffer.size, 
+
+Found callsite[173] in File: org.apache.hadoop.ipc.metrics.RpcMetrics.java LineNum: 59 Method name: conf.getBoolean(        CommonConfigurationKeys.RPC_METRICS_QUANTILE_ENABLE,        CommonConfigurationKeys.RPC_METRICS_QUANTILE_ENABLE_DEFAULT)
+Inferred parameter values: rpc.metrics.quantile.enable, 
+
+Found callsite[174] in File: org.apache.hadoop.io.compress.bzip2.Bzip2Factory.java LineNum: 54 Method name: conf.get("io.compression.codec.bzip2.library",                               "system-native")
+Inferred parameter values: io.compression.codec.bzip2.library, system-native, 
+
+Found callsite[175] in File: org.apache.hadoop.security.ssl.FileBasedKeyStoresFactory.java LineNum: 238 Method name: conf.getPassword(alias)
+Inferred parameter values: 
+
+Found callsite[176] in File: org.apache.hadoop.security.KDiag.java LineNum: 488 Method name: conf.get(HADOOP_TOKEN_FILES)
+Inferred parameter values: hadoop.token.files, 
+
+Found callsite[177] in File: org.apache.hadoop.io.compress.Lz4Codec.java LineNum: 182 Method name: conf.getInt(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_BUFFERSIZE_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_BUFFERSIZE_DEFAULT)
+Inferred parameter values: io.compression.codec.lz4.buffersize, 
+
+Found callsite[178] in File: org.apache.hadoop.fs.ftp.FTPFileSystem.java LineNum: 103 Method name: conf.get(FS_FTP_HOST, null)
+Inferred parameter values: fs.ftp.host, 
+
+Found callsite[179] in File: org.apache.hadoop.security.authorize.ProxyUsers.java LineNum: 47 Method name: conf.getClass(            CommonConfigurationKeysPublic.HADOOP_SECURITY_IMPERSONATION_PROVIDER_CLASS,            DefaultImpersonationProvider.class, ImpersonationProvider.class)
+Inferred parameter values: hadoop.security.impersonation.provider.class, 
+
+Found callsite[180] in File: org.apache.hadoop.io.retry.RetryUtils.java LineNum: 190 Method name: conf.getBoolean(retryPolicyEnabledKey, defaultRetryPolicyEnabled)
+Inferred parameter values: 
+
+Found callsite[181] in File: org.apache.hadoop.http.HttpServer2.java LineNum: 1208 Method name: conf.getBoolean(      CommonConfigurationKeys.HADOOP_SECURITY_INSTRUMENTATION_REQUIRES_ADMIN,      false)
+Inferred parameter values: 
+
+Found callsite[182] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 372 Method name: conf.getTimeDurations(ns + "." +            IPC_DECAYSCHEDULER_BACKOFF_RESPONSETIME_THRESHOLDS_KEY,        TimeUnit.MILLISECONDS)
+Inferred parameter values: decay-scheduler.backoff.responsetime.thresholds, 
+
+Found callsite[183] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 160 Method name: conf.get(ZK_DTSM_ZK_AUTH_TYPE)
+Inferred parameter values: zk-dt-secret-manager.zkAuthType, 
+
+Found callsite[184] in File: org.apache.hadoop.fs.GetSpaceUsed.java LineNum: 87 Method name: conf.getClass(CommonConfigurationKeys.FS_GETSPACEUSED_CLASSNAME,          result, GetSpaceUsed.class)
+Inferred parameter values: 
+
+Found callsite[185] in File: org.apache.hadoop.io.compress.zlib.ZlibFactory.java LineNum: 64 Method name: conf.getBoolean(                          CommonConfigurationKeys.IO_NATIVE_LIB_AVAILABLE_KEY,                           CommonConfigurationKeys.IO_NATIVE_LIB_AVAILABLE_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[186] in File: org.apache.hadoop.crypto.key.JavaKeyStoreProvider.java LineNum: 310 Method name: get(KEYSTORE_PASSWORD_FILE_KEY)
+Inferred parameter values: hadoop.security.keystore.java-keystore-provider.password-file, 
+
+Found callsite[187] in File: org.apache.hadoop.security.CompositeGroupsMapping.java LineNum: 119 Method name: conf.getBoolean(MAPPING_PROVIDERS_COMBINED_CONFIG_KEY, true)
+Inferred parameter values: hadoop.security.group.mapping.providers.combined, 
+
+Found callsite[188] in File: org.apache.hadoop.security.SecurityUtil.java LineNum: 107 Method name: conf.getInt(        CommonConfigurationKeys            .HADOOP_SECURITY_DNS_LOG_SLOW_LOOKUPS_THRESHOLD_MS_KEY,        CommonConfigurationKeys            .HADOOP_SECURITY_DNS_LOG_SLOW_LOOKUPS_THRESHOLD_MS_DEFAULT)
+Inferred parameter values: hadoop.security.dns.log-slow-lookups.threshold.ms, 
+
+Found callsite[189] in File: org.apache.hadoop.security.authorize.ServiceAuthorizationManager.java LineNum: 190 Method name: conf.get(serviceHostsKey, defaultMachineList)
+Inferred parameter values: 
+
+Found callsite[190] in File: org.apache.hadoop.crypto.key.kms.LoadBalancingKMSClientProvider.java LineNum: 92 Method name: conf.getInt(CommonConfigurationKeysPublic.        KMS_CLIENT_FAILOVER_SLEEP_BASE_MILLIS_KEY,        CommonConfigurationKeysPublic.            KMS_CLIENT_FAILOVER_SLEEP_BASE_MILLIS_DEFAULT)
+Inferred parameter values: hadoop.security.kms.client.failover.sleep.base.millis, 
+
+Found callsite[191] in File: org.apache.hadoop.fs.viewfs.ConfigUtil.java LineNum: 114 Method name: conf.get(getConfigViewFsPrefix(mountTableName) + "." +        Constants.CONFIG_VIEWFS_HOMEDIR)
+Inferred parameter values: homedir, 
+
+Found callsite[192] in File: org.apache.hadoop.io.compress.bzip2.Bzip2Factory.java LineNum: 61 Method name: conf.getBoolean(                CommonConfigurationKeys.IO_NATIVE_LIB_AVAILABLE_KEY,                 CommonConfigurationKeys.IO_NATIVE_LIB_AVAILABLE_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[193] in File: org.apache.hadoop.ipc.Server.java LineNum: 736 Method name: conf.getBoolean(name,        CommonConfigurationKeys.IPC_BACKOFF_ENABLE_DEFAULT)
+Inferred parameter values: backoff.enable, 
+
+Found callsite[194] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 152 Method name: conf.get(ZK_DTSM_ZNODE_WORKING_PATH,                  ZK_DTSM_ZNODE_WORKING_PATH_DEAFULT)
+Inferred parameter values: zk-dt-secret-manager.znodeWorkingPath, zkdtsm, 
+
+Found callsite[195] in File: org.apache.hadoop.ha.FailoverController.java LineNum: 89 Method name: conf.getInt(        CommonConfigurationKeys.HA_FC_NEW_ACTIVE_TIMEOUT_KEY,        CommonConfigurationKeys.HA_FC_NEW_ACTIVE_TIMEOUT_DEFAULT)
+Inferred parameter values: ha.failover-controller.new-active.rpc-timeout.ms, 
+
+Found callsite[196] in File: org.apache.hadoop.security.ssl.FileBasedKeyStoresFactory.java LineNum: 194 Method name: conf.get(resolvePropertyName(mode, SSL_TRUSTSTORE_TYPE_TPL_KEY),               DEFAULT_KEYSTORE_TYPE)
+Inferred parameter values: jks, 
+
+Found callsite[197] in File: org.apache.hadoop.fs.TrashPolicyDefault.java LineNum: 101 Method name: conf.getFloat(        FS_TRASH_CHECKPOINT_INTERVAL_KEY, FS_TRASH_CHECKPOINT_INTERVAL_DEFAULT)
+Inferred parameter values: fs.trash.checkpoint.interval, 
+
+Found callsite[198] in File: org.apache.hadoop.security.ssl.SSLFactory.java LineNum: 123 Method name: sslConf.getTrimmedStrings(SSL_SERVER_EXCLUDE_CIPHER_LIST)
+Inferred parameter values: ssl.server.exclude.cipher.list, 
+
+Found callsite[199] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 303 Method name: conf.getLong(ns + "." +        IPC_FCQ_DECAYSCHEDULER_PERIOD_KEY,        0)
+Inferred parameter values: faircallqueue.decay-scheduler.period-ms, 
+
+Found callsite[200] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 2807 Method name: conf.getInt(CommonConfigurationKeys.IO_SORT_FACTOR_KEY,            CommonConfigurationKeys.SEQ_IO_SORT_FACTOR_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[201] in File: org.apache.hadoop.ipc.Server.java LineNum: 721 Method name: conf.getInt(        CommonConfigurationKeys.IPC_SERVER_HANDLER_QUEUE_SIZE_KEY,        CommonConfigurationKeys.IPC_SERVER_HANDLER_QUEUE_SIZE_DEFAULT)
+Inferred parameter values: ipc.server.handler.queue.size, 
+
+Found callsite[202] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 994 Method name: getInt(IO_FILE_BUFFER_SIZE_KEY,                      IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[203] in File: org.apache.hadoop.ipc.RPC.java LineNum: 736 Method name: conf.getInt(CommonConfigurationKeys.IPC_CLIENT_RPC_TIMEOUT_KEY,        CommonConfigurationKeys.IPC_CLIENT_RPC_TIMEOUT_DEFAULT)
+Inferred parameter values: ipc.client.rpc-timeout.ms, 
+
+Found callsite[204] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 249 Method name: conf.getInstances(        ns + "." + CommonConfigurationKeys.IPC_COST_PROVIDER_KEY,        CostProvider.class)
+Inferred parameter values: cost-provider.impl, 
+
+Found callsite[205] in File: org.apache.hadoop.ipc.Client.java LineNum: 1654 Method name: conf.getInt(          CommonConfigurationKeysPublic.IPC_CLIENT_CONNECT_MAX_RETRIES_ON_SOCKET_TIMEOUTS_KEY,          CommonConfigurationKeysPublic.IPC_CLIENT_CONNECT_MAX_RETRIES_ON_SOCKET_TIMEOUTS_DEFAULT)
+Inferred parameter values: ipc.client.connect.max.retries.on.timeouts, 
+
+Found callsite[206] in File: org.apache.hadoop.security.Groups.java LineNum: 113 Method name: conf.getLong(CommonConfigurationKeys.HADOOP_SECURITY_GROUPS_CACHE_SECS,           CommonConfigurationKeys.HADOOP_SECURITY_GROUPS_CACHE_SECS_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[207] in File: org.apache.hadoop.security.HttpCrossOriginFilterInitializer.java LineNum: 43 Method name: conf.getBoolean(key, false)
+Inferred parameter values: 
+
+Found callsite[208] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 672 Method name: conf.getBoolean(LDAP_USE_SSL_KEY, LDAP_USE_SSL_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.ssl, 
+
+Found callsite[209] in File: org.apache.hadoop.io.serializer.SerializationFactory.java LineNum: 58 Method name: conf.getTrimmedStrings(      CommonConfigurationKeys.IO_SERIALIZATIONS_KEY,      new String[]{WritableSerialization.class.getName(),        AvroSpecificSerialization.class.getName(),        AvroReflectSerialization.class.getName()})
+Inferred parameter values: 
+
+Found callsite[210] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 960 Method name: getInt(IO_FILE_BUFFER_SIZE_KEY,                      IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[211] in File: org.apache.hadoop.io.DefaultStringifier.java LineNum: 140 Method name: conf.get(keyName)
+Inferred parameter values: 
+
+Found callsite[212] in File: org.apache.hadoop.ipc.CallQueueManager.java LineNum: 323 Method name: conf.getInt(ns + "." +          CommonConfigurationKeys.IPC_SCHEDULER_PRIORITY_LEVELS_KEY,          CommonConfigurationKeys.IPC_SCHEDULER_PRIORITY_LEVELS_DEFAULT_KEY)
+Inferred parameter values: scheduler.priority.levels, 
+
+Found callsite[213] in File: org.apache.hadoop.ha.HealthMonitor.java LineNum: 118 Method name: conf.getLong(        HA_HM_SLEEP_AFTER_DISCONNECT_KEY,        HA_HM_SLEEP_AFTER_DISCONNECT_DEFAULT)
+Inferred parameter values: ha.health-monitor.sleep-after-disconnect.ms, 
+
+Found callsite[214] in File: org.apache.hadoop.ipc.Server.java LineNum: 3010 Method name: conf.getBoolean(        CommonConfigurationKeysPublic.IPC_SERVER_TCPNODELAY_KEY,        CommonConfigurationKeysPublic.IPC_SERVER_TCPNODELAY_DEFAULT)
+Inferred parameter values: ipc.server.tcpnodelay, 
+
+Found callsite[215] in File: org.apache.hadoop.crypto.CryptoCodec.java LineNum: 126 Method name: conf.getClassByName(c)
+Inferred parameter values: 
+
+Found callsite[216] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 714 Method name: conf.get(POSIX_GID_ATTR_KEY, POSIX_GID_ATTR_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.posix.attr.gid.name, gidNumber, 
+
+Found callsite[217] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 766 Method name: sslConf.get(LDAP_TRUSTSTORE_PASSWORD_FILE_KEY, "")
+Inferred parameter values: hadoop.security.group.mapping.ldap.ssl.truststore.password.file, , 
+
+Found callsite[218] in File: org.apache.hadoop.io.compress.BZip2Codec.java LineNum: 126 Method name: conf.getInt(IO_FILE_BUFFER_SIZE_KEY,                                   IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[219] in File: org.apache.hadoop.http.lib.StaticUserWebFilter.java LineNum: 138 Method name: conf.get(DEPRECATED_UGI_KEY)
+Inferred parameter values: dfs.web.ugi, 
+
+Found callsite[220] in File: org.apache.hadoop.crypto.random.OsSecureRandom.java LineNum: 79 Method name: conf.get(        HADOOP_SECURITY_SECURE_RANDOM_DEVICE_FILE_PATH_KEY,        HADOOP_SECURITY_SECURE_RANDOM_DEVICE_FILE_PATH_DEFAULT)
+Inferred parameter values: hadoop.security.random.device.file.path, /dev/urandom, 
+
+Found callsite[221] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 736 Method name: conf.getInt(        LDAP_NUM_ATTEMPTS_BEFORE_FAILOVER_KEY,        LDAP_NUM_ATTEMPTS_BEFORE_FAILOVER_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.num.attempts.before.failover, 
+
+Found callsite[222] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 2671 Method name: this.conf.getInt("io.bytes.per.checksum", 512)
+Inferred parameter values: io.bytes.per.checksum, 
+
+Found callsite[223] in File: org.apache.hadoop.http.HttpServer2.java LineNum: 942 Method name: conf.get(usernameConfKey)
+Inferred parameter values: 
+
+Found callsite[224] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 406 Method name: conf.getBoolean(ns + "." +        IPC_DECAYSCHEDULER_BACKOFF_RESPONSETIME_ENABLE_KEY,        IPC_DECAYSCHEDULER_BACKOFF_RESPONSETIME_ENABLE_DEFAULT)
+Inferred parameter values: decay-scheduler.backoff.responsetime.enable, 
+
+Found callsite[225] in File: org.apache.hadoop.ha.SshFenceByTcpPort.java LineNum: 216 Method name: getInt(        CONF_CONNECT_TIMEOUT_KEY, CONF_CONNECT_TIMEOUT_DEFAULT)
+Inferred parameter values: dfs.ha.fencing.ssh.connect-timeout, 
+
+Found callsite[226] in File: org.apache.hadoop.security.SaslPropertiesResolver.java LineNum: 54 Method name: conf.getClass(          CommonConfigurationKeysPublic.HADOOP_SECURITY_SASL_PROPS_RESOLVER_CLASS,          SaslPropertiesResolver.class, SaslPropertiesResolver.class)
+Inferred parameter values: hadoop.security.saslproperties.resolver.class, 
+
+Found callsite[227] in File: org.apache.hadoop.security.ShellBasedUnixGroupsMapping.java LineNum: 62 Method name: conf.getTimeDuration(          CommonConfigurationKeys.              HADOOP_SECURITY_GROUP_SHELL_COMMAND_TIMEOUT_KEY,          CommonConfigurationKeys.              HADOOP_SECURITY_GROUP_SHELL_COMMAND_TIMEOUT_DEFAULT,          TimeUnit.MILLISECONDS)
+Inferred parameter values: 
+
+Found callsite[228] in File: org.apache.hadoop.security.authorize.ServiceAuthorizationManager.java LineNum: 192 Method name: conf.get(serviceHostsKey + BLOCKED, defaultBlockedMachineList)
+Inferred parameter values: .blocked, 
+
+Found callsite[229] in File: org.apache.hadoop.io.compress.bzip2.Bzip2Factory.java LineNum: 140 Method name: conf.getInt("bzip2.compress.blocksize",                        Bzip2Compressor.DEFAULT_BLOCK_SIZE)
+Inferred parameter values: bzip2.compress.blocksize, 
+
+Found callsite[230] in File: org.apache.hadoop.ipc.Server.java LineNum: 686 Method name: conf.getClass(name, LinkedBlockingQueue.class)
+Inferred parameter values: callqueue.impl, 
+
+Found callsite[231] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 143 Method name: conf.getLong(DelegationTokenManager.RENEW_INTERVAL,            DelegationTokenManager.RENEW_INTERVAL_DEFAULT)
+Inferred parameter values: delegation-token.renew-interval.sec, 
+
+Found callsite[232] in File: org.apache.hadoop.fs.sftp.SFTPFileSystem.java LineNum: 146 Method name: conf.get(FS_SFTP_USER_PREFIX + host, null)
+Inferred parameter values: 
+
+Found callsite[233] in File: org.apache.hadoop.security.Groups.java LineNum: 128 Method name: conf.getInt(          CommonConfigurationKeys.              HADOOP_SECURITY_GROUPS_CACHE_BACKGROUND_RELOAD_THREADS,          CommonConfigurationKeys.              HADOOP_SECURITY_GROUPS_CACHE_BACKGROUND_RELOAD_THREADS_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[234] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 234 Method name: conf.getInt(DECAYSCHEDULER_METRICS_TOP_USER_COUNT,            DECAYSCHEDULER_METRICS_TOP_USER_COUNT_DEFAULT)
+Inferred parameter values: decay-scheduler.metrics.top.user.count, 
+
+Found callsite[235] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 774 Method name: conf.getPasswordFromCredentialProviders(alias)
+Inferred parameter values: 
+
+Found callsite[236] in File: org.apache.hadoop.security.authentication.client.KerberosAuthenticator.java LineNum: 83 Method name: System.getProperty("os.name")
+Inferred parameter values: os.name, 
+
+Found callsite[237] in File: org.apache.hadoop.security.SecurityUtil.java LineNum: 96 Method name: conf.getBoolean(        CommonConfigurationKeys.HADOOP_SECURITY_TOKEN_SERVICE_USE_IP,        CommonConfigurationKeys.HADOOP_SECURITY_TOKEN_SERVICE_USE_IP_DEFAULT)
+Inferred parameter values: hadoop.security.token.service.use_ip, 
+
+Found callsite[238] in File: org.apache.hadoop.crypto.key.kms.LoadBalancingKMSClientProvider.java LineNum: 96 Method name: conf.getInt(CommonConfigurationKeysPublic.        KMS_CLIENT_FAILOVER_SLEEP_MAX_MILLIS_KEY,        CommonConfigurationKeysPublic.            KMS_CLIENT_FAILOVER_SLEEP_MAX_MILLIS_DEFAULT)
+Inferred parameter values: hadoop.security.kms.client.failover.sleep.max.millis, 
+
+Found callsite[239] in File: org.apache.hadoop.security.alias.CredentialProviderFactory.java LineNum: 65 Method name: conf.getStringCollection(CREDENTIAL_PROVIDER_PATH)
+Inferred parameter values: hadoop.security.credential.provider.path, 
+
+Found callsite[240] in File: org.apache.hadoop.io.MapFile.java LineNum: 254 Method name: conf.getInt(INDEX_INTERVAL, this.indexInterval)
+Inferred parameter values: io.map.index.interval, 
+
+Found callsite[241] in File: org.apache.hadoop.ipc.RPC.java LineNum: 209 Method name: conf.getClass(ENGINE_PROP+"."+protocol.getName(),                                    WritableRpcEngine.class)
+Inferred parameter values: rpc.engine., 
+
+Found callsite[242] in File: org.apache.hadoop.metrics.ganglia.GangliaContext31.java LineNum: 57 Method name: conf.get("slave.host.name")
+Inferred parameter values: slave.host.name, 
+
+Found callsite[243] in File: org.apache.hadoop.crypto.key.KeyProvider.java LineNum: 318 Method name: conf.getInt(DEFAULT_BITLENGTH_NAME, DEFAULT_BITLENGTH)
+Inferred parameter values: 
+
+Found callsite[244] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 3311 Method name: conf.getBoolean(            FS_AUTOMATIC_CLOSE_KEY, FS_AUTOMATIC_CLOSE_DEFAULT)
+Inferred parameter values: fs.automatic.close, 
+
+Found callsite[245] in File: org.apache.hadoop.crypto.key.JavaKeyStoreProvider.java LineNum: 147 Method name: get(KEYSTORE_PASSWORD_FILE_KEY)
+Inferred parameter values: hadoop.security.keystore.java-keystore-provider.password-file, 
+
+Found callsite[246] in File: org.apache.hadoop.conf.ReconfigurationServlet.java LineNum: 169 Method name: oldConf.getRaw(param)
+Inferred parameter values: 
+
+Found callsite[247] in File: org.apache.hadoop.io.compress.DefaultCodec.java LineNum: 92 Method name: conf.getInt(IO_FILE_BUFFER_SIZE_KEY,                                      IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[248] in File: org.apache.hadoop.ha.NodeFencer.java LineNum: 84 Method name: conf.get(confKey)
+Inferred parameter values: 
+
+Found callsite[249] in File: org.apache.hadoop.http.HttpServer.java LineNum: 695 Method name: sslConf.get("ssl.server.keystore.location")
+Inferred parameter values: ssl.server.keystore.location, 
+
+Found callsite[250] in File: org.apache.hadoop.io.compress.ZStandardCodec.java LineNum: 109 Method name: conf.getInt(IO_COMPRESSION_CODEC_ZSTD_BUFFER_SIZE_KEY,        IO_COMPRESSION_CODEC_ZSTD_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.compression.codec.zstd.buffersize, 
+
+Found callsite[251] in File: org.apache.hadoop.security.ssl.FileBasedKeyStoresFactory.java LineNum: 199 Method name: conf.get(locationProperty, "")
+Inferred parameter values: , 
+
+Found callsite[252] in File: org.apache.hadoop.ipc.WeightedRoundRobinMultiplexer.java LineNum: 64 Method name: conf.getInts(ns + "." +      IPC_CALLQUEUE_WRRMUX_WEIGHTS_KEY)
+Inferred parameter values: faircallqueue.multiplexer.weights, 
+
+Found callsite[253] in File: org.apache.hadoop.fs.sftp.SFTPFileSystem.java LineNum: 108 Method name: conf.getInt(FS_SFTP_HOST_PORT, DEFAULT_SFTP_PORT)
+Inferred parameter values: fs.sftp.host.port, 
+
+Found callsite[254] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 283 Method name: conf.getDouble(ns + "." +        IPC_FCQ_DECAYSCHEDULER_FACTOR_KEY, 0.0)
+Inferred parameter values: faircallqueue.decay-scheduler.decay-factor, 
+
+Found callsite[255] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 761 Method name: sslConf.get(LDAP_TRUSTSTORE_KEY, "")
+Inferred parameter values: hadoop.security.group.mapping.ldap.ssl.truststore, , 
+
+Found callsite[256] in File: org.apache.hadoop.net.NetworkTopology.java LineNum: 76 Method name: conf.getClass(CommonConfigurationKeysPublic.NET_TOPOLOGY_IMPL_KEY,            NetworkTopology.class, NetworkTopology.class)
+Inferred parameter values: net.topology.impl, 
+
+Found callsite[257] in File: org.apache.hadoop.security.HadoopKerberosName.java LineNum: 74 Method name: conf.get(HADOOP_SECURITY_AUTH_TO_LOCAL, defaultRule)
+Inferred parameter values: hadoop.security.auth_to_local, 
+
+Found callsite[258] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 687 Method name: conf.getTrimmed(USER_BASE_DN_KEY, baseDN)
+Inferred parameter values: hadoop.security.group.mapping.ldap.userbase, 
+
+Found callsite[259] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 269 Method name: conf.getInstances(      ns + "." + CommonConfigurationKeys.IPC_IDENTITY_PROVIDER_KEY,      IdentityProvider.class)
+Inferred parameter values: identity-provider.impl, 
+
+Found callsite[260] in File: org.apache.hadoop.util.ShutdownHookManager.java LineNum: 183 Method name: conf.getTimeDuration(        SERVICE_SHUTDOWN_TIMEOUT,        SERVICE_SHUTDOWN_TIMEOUT_DEFAULT,        TIME_UNIT_DEFAULT)
+Inferred parameter values: hadoop.service.shutdown.timeout, 
+
+Found callsite[261] in File: org.apache.hadoop.fs.DF.java LineNum: 50 Method name: conf.getLong(CommonConfigurationKeys.FS_DF_INTERVAL_KEY,        CommonConfigurationKeysPublic.FS_DF_INTERVAL_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[262] in File: org.apache.hadoop.util.hash.Hash.java LineNum: 65 Method name: conf.get(HADOOP_UTIL_HASH_TYPE_KEY,        HADOOP_UTIL_HASH_TYPE_DEFAULT)
+Inferred parameter values: hadoop.util.hash.type, murmur, 
+
+Found callsite[263] in File: org.apache.hadoop.util.LineReader.java LineNum: 94 Method name: conf.getInt(IO_FILE_BUFFER_SIZE_KEY, DEFAULT_BUFFER_SIZE)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[264] in File: org.apache.hadoop.io.file.tfile.TFile.java LineNum: 152 Method name: conf.getInt(FS_OUTPUT_BUF_SIZE_ATTR, 256 * 1024)
+Inferred parameter values: tfile.fs.output.buffer.size, 
+
+Found callsite[265] in File: org.apache.hadoop.io.compress.BZip2Codec.java LineNum: 181 Method name: conf.getInt(IO_FILE_BUFFER_SIZE_KEY,                                 IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[266] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 943 Method name: getInt(IO_FILE_BUFFER_SIZE_KEY,                      IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[267] in File: org.apache.hadoop.security.CompositeGroupsMapping.java LineNum: 130 Method name: conf.getClass(providerKey, null)
+Inferred parameter values: 
+
+Found callsite[268] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 470 Method name: conf.getBoolean(disableCacheName, false)
+Inferred parameter values: 
+
+Found callsite[269] in File: org.apache.hadoop.http.HttpServer.java LineNum: 907 Method name: conf.getBoolean(      CommonConfigurationKeys.HADOOP_SECURITY_INSTRUMENTATION_REQUIRES_ADMIN,      false)
+Inferred parameter values: 
+
+Found callsite[270] in File: org.apache.hadoop.security.token.delegation.web.DelegationTokenManager.java LineNum: 74 Method name: conf.getLong(RENEW_INTERVAL, RENEW_INTERVAL_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[271] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 630 Method name: conf.get(CONNECTION_TIMEOUT,          String.valueOf(CONNECTION_TIMEOUT_DEFAULT))
+Inferred parameter values: hadoop.security.group.mapping.ldap.connection.timeout.ms, 
+
+Found callsite[272] in File: org.apache.hadoop.security.KDiag.java LineNum: 372 Method name: conf.get(DFS_DATA_TRANSFER_SASLPROPERTIES_RESOLVER_CLASS)
+Inferred parameter values: dfs.data.transfer.saslproperties.resolver.class, 
+
+Found callsite[273] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 684 Method name: conf.getTrimmed(BASE_DN_KEY, BASE_DN_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.base, , 
+
+Found callsite[274] in File: org.apache.hadoop.net.NetUtils.java LineNum: 97 Method name: conf.get("hadoop.rpc.socket.factory.class." + clazz.getSimpleName())
+Inferred parameter values: hadoop.rpc.socket.factory.class., 
+
+Found callsite[275] in File: org.apache.hadoop.ipc.Client.java LineNum: 467 Method name: remoteId.conf.getInt(          CommonConfigurationKeys.IPC_MAXIMUM_RESPONSE_LENGTH,          CommonConfigurationKeys.IPC_MAXIMUM_RESPONSE_LENGTH_DEFAULT)
+Inferred parameter values: ipc.maximum.response.length, 
+
+Found callsite[276] in File: org.apache.hadoop.util.GenericOptionsParser.java LineNum: 366 Method name: conf.get("tmpjars")
+Inferred parameter values: tmpjars, 
+
+Found callsite[277] in File: org.apache.hadoop.http.HttpServer.java LineNum: 366 Method name: conf.getClasses(FILTER_INITIALIZER_PROPERTY)
+Inferred parameter values: hadoop.http.filter.initializers, 
+
+Found callsite[278] in File: org.apache.hadoop.io.compress.SnappyCodec.java LineNum: 207 Method name: conf.getInt(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_SNAPPY_BUFFERSIZE_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_SNAPPY_BUFFERSIZE_DEFAULT)
+Inferred parameter values: io.compression.codec.snappy.buffersize, 
+
+Found callsite[279] in File: org.apache.hadoop.fs.viewfs.ViewFileSystem.java LineNum: 238 Method name: config.getBoolean(CONFIG_VIEWFS_ENABLE_INNER_CACHE,        CONFIG_VIEWFS_ENABLE_INNER_CACHE_DEFAULT)
+Inferred parameter values: fs.viewfs.enable.inner.cache, 
+
+Found callsite[280] in File: org.apache.hadoop.security.Groups.java LineNum: 119 Method name: conf.getLong(CommonConfigurationKeys.HADOOP_SECURITY_GROUPS_CACHE_WARN_AFTER_MS,        CommonConfigurationKeys.HADOOP_SECURITY_GROUPS_CACHE_WARN_AFTER_MS_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[281] in File: org.apache.hadoop.security.http.XFrameOptionsFilter.java LineNum: 82 Method name: conf.getPropsWithPrefix(confPrefix)
+Inferred parameter values: 
+
+Found callsite[282] in File: org.apache.hadoop.fs.ChecksumFileSystem.java LineNum: 726 Method name: getRawFileSystem()
+Inferred parameter values: 
+
+Found callsite[283] in File: org.apache.hadoop.security.ssl.FileBasedKeyStoresFactory.java LineNum: 209 Method name: conf.getLong(              resolvePropertyName(mode, SSL_TRUSTSTORE_RELOAD_INTERVAL_TPL_KEY),              DEFAULT_SSL_TRUSTSTORE_RELOAD_INTERVAL)
+Inferred parameter values: 
+
+Found callsite[284] in File: org.apache.hadoop.ha.SshFenceByTcpPort.java LineNum: 221 Method name: getTrimmedStringCollection(CONF_IDENTITIES_KEY)
+Inferred parameter values: dfs.ha.fencing.ssh.private-key-files, 
+
+Found callsite[285] in File: org.apache.hadoop.security.authorize.ServiceAuthorizationManager.java LineNum: 109 Method name: conf.get(clientKey)
+Inferred parameter values: 
+
+Found callsite[286] in File: org.apache.hadoop.io.compress.bzip2.Bzip2Factory.java LineNum: 149 Method name: conf.getInt("bzip2.compress.workfactor",                        Bzip2Compressor.DEFAULT_WORK_FACTOR)
+Inferred parameter values: bzip2.compress.workfactor, 
+
+Found callsite[287] in File: org.apache.hadoop.util.curator.ZKCuratorManager.java LineNum: 144 Method name: conf.getInt(CommonConfigurationKeys.ZK_TIMEOUT_MS,        CommonConfigurationKeys.ZK_TIMEOUT_MS_DEFAULT)
+Inferred parameter values: hadoop.zk.timeout-ms, 
+
+Found callsite[288] in File: org.apache.hadoop.crypto.key.kms.server.KMSAudit.java LineNum: 132 Method name: conf.getClassByName(c)
+Inferred parameter values: 
+
+Found callsite[289] in File: org.apache.hadoop.net.AbstractDNSToSwitchMapping.java LineNum: 137 Method name: conf.get(CommonConfigurationKeys.NET_TOPOLOGY_SCRIPT_FILE_NAME_KEY)
+Inferred parameter values: 
+
+Found callsite[290] in File: org.apache.hadoop.security.authentication.util.ZKSignerSecretProvider.java LineNum: 465 Method name: System.getenv("HADOOP_JAAS_DEBUG")
+Inferred parameter values: HADOOP_JAAS_DEBUG, 
+
+Found callsite[291] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 3213 Method name: conf.getClass(          property, null)
+Inferred parameter values: null.impl, 
+
+Found callsite[292] in File: org.apache.hadoop.ipc.Client.java LineNum: 232 Method name: conf.getInt(CommonConfigurationKeys.IPC_PING_INTERVAL_KEY,        CommonConfigurationKeys.IPC_PING_INTERVAL_DEFAULT)
+Inferred parameter values: ipc.ping.interval, 
+
+Found callsite[293] in File: org.apache.hadoop.http.HttpServer2.java LineNum: 947 Method name: conf.get(keytabConfKey)
+Inferred parameter values: 
+
+Found callsite[294] in File: org.apache.hadoop.ipc.Client.java LineNum: 1651 Method name: conf.getInt(          CommonConfigurationKeys.IPC_CLIENT_CONNECT_MAX_RETRIES_ON_SASL_KEY,          CommonConfigurationKeys.IPC_CLIENT_CONNECT_MAX_RETRIES_ON_SASL_DEFAULT)
+Inferred parameter values: ipc.client.connect.max.retries.on.sasl, 
+
+Found callsite[295] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 1981 Method name: conf.getClassByName(codecClassname)
+Inferred parameter values: 
+
+Found callsite[296] in File: org.apache.hadoop.ipc.Client.java LineNum: 1314 Method name: conf.getInt(CommonConfigurationKeys.IPC_CLIENT_CONNECT_TIMEOUT_KEY,        CommonConfigurationKeys.IPC_CLIENT_CONNECT_TIMEOUT_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[297] in File: org.apache.hadoop.util.curator.ZKCuratorManager.java LineNum: 106 Method name: conf.get(CommonConfigurationKeys.ZK_AUTH)
+Inferred parameter values: hadoop.zk.auth, 
+
+Found callsite[298] in File: org.apache.hadoop.security.authentication.util.ZKSignerSecretProvider.java LineNum: 483 Method name: System.getProperty("java.vendor")
+Inferred parameter values: java.vendor, 
+
+Found callsite[299] in File: org.apache.hadoop.crypto.key.kms.KMSClientProvider.java LineNum: 468 Method name: conf.getInt(                CommonConfigurationKeysPublic.                    KMS_CLIENT_ENC_KEY_CACHE_EXPIRY_MS,                CommonConfigurationKeysPublic.                    KMS_CLIENT_ENC_KEY_CACHE_EXPIRY_DEFAULT)
+Inferred parameter values: hadoop.security.kms.client.encrypted.key.cache.expiry, 
+
+Found callsite[300] in File: org.apache.hadoop.security.alias.AbstractJavaKeyStoreProvider.java LineNum: 313 Method name: conf.get(CREDENTIAL_PASSWORD_FILE_KEY)
+Inferred parameter values: hadoop.security.credstore.java-keystore-provider.password-file, 
+
+Found callsite[301] in File: org.apache.hadoop.security.KDiag.java LineNum: 853 Method name: get(option, UNSET)
+Inferred parameter values: (unset), 
+
+Found callsite[302] in File: org.apache.hadoop.io.BloomMapFile.java LineNum: 174 Method name: conf.getFloat(          IO_MAPFILE_BLOOM_ERROR_RATE_KEY, IO_MAPFILE_BLOOM_ERROR_RATE_DEFAULT)
+Inferred parameter values: io.mapfile.bloom.error.rate, 
+
+Found callsite[303] in File: org.apache.hadoop.io.compress.SnappyCodec.java LineNum: 119 Method name: conf.getInt(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_SNAPPY_BUFFERSIZE_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_SNAPPY_BUFFERSIZE_DEFAULT)
+Inferred parameter values: io.compression.codec.snappy.buffersize, 
+
+Found callsite[304] in File: org.apache.hadoop.util.GenericOptionsParser.java LineNum: 323 Method name: conf.getClassLoader()
+Inferred parameter values: 
+
+Found callsite[305] in File: org.apache.hadoop.metrics.ganglia.GangliaContext31.java LineNum: 63 Method name: conf.get("dfs.datanode.dns.nameserver","default")
+Inferred parameter values: dfs.datanode.dns.nameserver, default, 
+
+Found callsite[306] in File: org.apache.hadoop.fs.FileContext.java LineNum: 488 Method name: aConf.get(FS_DEFAULT_NAME_KEY,        FS_DEFAULT_NAME_DEFAULT)
+Inferred parameter values: fs.defaultFS, file:///, 
+
+Found callsite[307] in File: org.apache.hadoop.io.IOUtils.java LineNum: 113 Method name: conf.getInt(        IO_FILE_BUFFER_SIZE_KEY, IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[308] in File: org.apache.hadoop.io.compress.Lz4Codec.java LineNum: 107 Method name: conf.getInt(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_BUFFERSIZE_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_LZ4_BUFFERSIZE_DEFAULT)
+Inferred parameter values: io.compression.codec.lz4.buffersize, 
+
+Found callsite[309] in File: org.apache.hadoop.security.IngressPortBasedResolver.java LineNum: 70 Method name: conf.getTrimmedStringCollection(INGRESS_PORT_SASL_CONFIGURED_PORTS)
+Inferred parameter values: ingress.port.sasl.configured.ports, 
+
+Found callsite[310] in File: org.apache.hadoop.security.SaslPropertiesResolver.java LineNum: 64 Method name: conf.getTrimmedStrings(        CommonConfigurationKeysPublic.HADOOP_RPC_PROTECTION,        QualityOfProtection.AUTHENTICATION.toString())
+Inferred parameter values: hadoop.rpc.protection, 
+
+Found callsite[311] in File: org.apache.hadoop.security.UserGroupInformation.java LineNum: 316 Method name: conf.getLong(                HADOOP_KERBEROS_MIN_SECONDS_BEFORE_RELOGIN,                HADOOP_KERBEROS_MIN_SECONDS_BEFORE_RELOGIN_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[312] in File: org.apache.hadoop.security.token.delegation.web.DelegationTokenManager.java LineNum: 73 Method name: conf.getLong(MAX_LIFETIME, MAX_LIFETIME_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[313] in File: org.apache.hadoop.net.ScriptBasedMapping.java LineNum: 160 Method name: conf.getInt(SCRIPT_ARG_COUNT_KEY, DEFAULT_ARG_COUNT)
+Inferred parameter values: 
+
+Found callsite[314] in File: org.apache.hadoop.io.serializer.avro.AvroReflectSerialization.java LineNum: 66 Method name: getStrings(AVRO_REFLECT_PACKAGES)
+Inferred parameter values: avro.reflect.pkgs, 
+
+Found callsite[315] in File: org.apache.hadoop.fs.LocalDirAllocator.java LineNum: 294 Method name: conf.get(contextCfgItemName)
+Inferred parameter values: 
+
+Found callsite[316] in File: org.apache.hadoop.crypto.CryptoCodec.java LineNum: 113 Method name: conf.get(configName, CommonConfigurationKeysPublic          .HADOOP_SECURITY_CRYPTO_CODEC_CLASSES_AES_CTR_NOPADDING_DEFAULT)
+Inferred parameter values: hadoop.security.crypto.codec.classes, ,, 
+
+Found callsite[317] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 185 Method name: conf.getInt(ZK_DTSM_ZK_SESSION_TIMEOUT,                ZK_DTSM_ZK_SESSION_TIMEOUT_DEFAULT)
+Inferred parameter values: zk-dt-secret-manager.zkSessionTimeout, 
+
+Found callsite[318] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 324 Method name: conf.getInts(ns + "." +        IPC_FCQ_DECAYSCHEDULER_THRESHOLDS_KEY)
+Inferred parameter values: faircallqueue.decay-scheduler.thresholds, 
+
+Found callsite[319] in File: org.apache.hadoop.security.alias.AbstractJavaKeyStoreProvider.java LineNum: 340 Method name: conf.get(CREDENTIAL_PASSWORD_FILE_KEY)
+Inferred parameter values: hadoop.security.credstore.java-keystore-provider.password-file, 
+
+Found callsite[320] in File: org.apache.hadoop.net.TableMapping.java LineNum: 94 Method name: get(NET_TOPOLOGY_TABLE_MAPPING_FILE_KEY, null)
+Inferred parameter values: net.topology.table.file.name, 
+
+Found callsite[321] in File: org.apache.hadoop.http.lib.StaticUserWebFilter.java LineNum: 147 Method name: conf.get(HADOOP_HTTP_STATIC_USER,        DEFAULT_HADOOP_HTTP_STATIC_USER)
+Inferred parameter values: hadoop.http.staticuser.user, dr.who, 
+
+Found callsite[322] in File: org.apache.hadoop.security.RuleBasedLdapGroupsMapping.java LineNum: 57 Method name: conf.get(CONVERSION_RULE_KEY, CONVERSION_RULE_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.conversion.rule, none, 
+
+Found callsite[323] in File: org.apache.hadoop.fs.ftp.FTPFileSystem.java LineNum: 138 Method name: conf.get(FS_FTP_HOST)
+Inferred parameter values: fs.ftp.host, 
+
+Found callsite[324] in File: org.apache.hadoop.io.compress.SnappyCodec.java LineNum: 148 Method name: conf.getInt(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_SNAPPY_BUFFERSIZE_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_SNAPPY_BUFFERSIZE_DEFAULT)
+Inferred parameter values: io.compression.codec.snappy.buffersize, 
+
+Found callsite[325] in File: org.apache.hadoop.crypto.key.kms.server.KMSACLs.java LineNum: 118 Method name: conf.getValByRegex(KMSConfiguration.KEY_ACL_PREFIX_REGEX)
+Inferred parameter values: ^key\\.acl\\..+, 
+
+Found callsite[326] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 286 Method name: conf.getDouble(ns + "." +          IPC_SCHEDULER_DECAYSCHEDULER_FACTOR_KEY,          IPC_SCHEDULER_DECAYSCHEDULER_FACTOR_DEFAULT)
+Inferred parameter values: decay-scheduler.decay-factor, 
+
+Found callsite[327] in File: org.apache.hadoop.security.WhitelistBasedResolver.java LineNum: 103 Method name: conf.getLong(HADOOP_SECURITY_SASL_VARIABLEWHITELIST_CACHE_SECS,3600)
+Inferred parameter values: hadoop.security.sasl.variablewhitelist.cache.secs, 
+
+Found callsite[328] in File: org.apache.hadoop.crypto.key.KeyProviderFactory.java LineNum: 65 Method name: conf.getStringCollection(KEY_PROVIDER_PATH)
+Inferred parameter values: hadoop.security.key.provider.path, 
+
+Found callsite[329] in File: org.apache.hadoop.conf.ReconfigurationServlet.java LineNum: 158 Method name: oldConf.getRaw(param)
+Inferred parameter values: 
+
+Found callsite[330] in File: org.apache.hadoop.ha.ZKFailoverController.java LineNum: 338 Method name: conf.get(ZK_ACL_KEY, ZK_ACL_DEFAULT)
+Inferred parameter values: ha.zookeeper.acl, world:anyone:rwcda, 
+
+Found callsite[331] in File: org.apache.hadoop.security.authorize.ServiceAuthorizationManager.java LineNum: 181 Method name: conf.get(service.getServiceKey(),                    defaultAcl)
+Inferred parameter values: 
+
+Found callsite[332] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 212 Method name: conf.get(CommonConfigurationKeys.KERBEROS_TICKET_CACHE_PATH)
+Inferred parameter values: hadoop.security.kerberos.ticket.cache.path, 
+
+Found callsite[333] in File: org.apache.hadoop.crypto.key.kms.server.EagerKeyGeneratorKeyProviderCryptoExtension.java LineNum: 99 Method name: conf.getInt(KMS_KEY_CACHE_EXPIRY_MS,                  KMS_KEY_CACHE_EXPIRY_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[334] in File: org.apache.hadoop.fs.sftp.SFTPFileSystem.java LineNum: 144 Method name: conf.get(FS_SFTP_HOST, null)
+Inferred parameter values: fs.sftp.host, 
+
+Found callsite[335] in File: org.apache.hadoop.ipc.DecayRpcScheduler.java LineNum: 307 Method name: conf.getLong(ns + "." +          IPC_SCHEDULER_DECAYSCHEDULER_PERIOD_KEY,          IPC_SCHEDULER_DECAYSCHEDULER_PERIOD_DEFAULT)
+Inferred parameter values: decay-scheduler.period-ms, 
+
+Found callsite[336] in File: org.apache.hadoop.security.authorize.ServiceAuthorizationManager.java LineNum: 170 Method name: conf.get(defaultServiceHostsKey,      MachineList.WILDCARD_VALUE)
+Inferred parameter values: *, 
+
+Found callsite[337] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 139 Method name: conf.getLong(DelegationTokenManager.UPDATE_INTERVAL,        DelegationTokenManager.UPDATE_INTERVAL_DEFAULT)
+Inferred parameter values: delegation-token.update-interval.sec, 
+
+Found callsite[338] in File: org.apache.hadoop.http.HttpServer.java LineNum: 392 Method name: conf.getBoolean(          CommonConfigurationKeys.HADOOP_JETTY_LOGS_SERVE_ALIASES,          CommonConfigurationKeys.DEFAULT_HADOOP_JETTY_LOGS_SERVE_ALIASES)
+Inferred parameter values: hadoop.jetty.logs.serve.aliases, 
+
+Found callsite[339] in File: org.apache.hadoop.conf.ReconfigurationServlet.java LineNum: 166 Method name: oldConf.getRaw(param)
+Inferred parameter values: 
+
+Found callsite[340] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 756 Method name: sslConf.get(          LDAP_KEYSTORE_PASSWORD_FILE_KEY,          LDAP_KEYSTORE_PASSWORD_FILE_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.ssl.keystore.password.file, , 
+
+Found callsite[341] in File: org.apache.hadoop.fs.shell.Delete.java LineNum: 238 Method name: getChildFileSystems()
+Inferred parameter values: 
+
+Found callsite[342] in File: org.apache.hadoop.crypto.CryptoStreamUtils.java LineNum: 48 Method name: conf.getInt(HADOOP_SECURITY_CRYPTO_BUFFER_SIZE_KEY,         HADOOP_SECURITY_CRYPTO_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: hadoop.security.crypto.buffer.size, 
+
+Found callsite[343] in File: org.apache.hadoop.security.CompositeGroupsMapping.java LineNum: 125 Method name: conf.getStrings(MAPPING_PROVIDERS_CONFIG_KEY, new String[]{})
+Inferred parameter values: hadoop.security.group.mapping.providers, 
+
+Found callsite[344] in File: org.apache.hadoop.nfs.NfsExports.java LineNum: 54 Method name: conf.getLong(          Nfs3Constant.NFS_EXPORTS_CACHE_EXPIRYTIME_MILLIS_KEY,          Nfs3Constant.NFS_EXPORTS_CACHE_EXPIRYTIME_MILLIS_DEFAULT)
+Inferred parameter values: nfs.exports.cache.expirytime.millis, 
+
+Found callsite[345] in File: org.apache.hadoop.conf.ReconfigurationUtil.java LineNum: 59 Method name: oldConf.get(prop)
+Inferred parameter values: 
+
+Found callsite[346] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 2810 Method name: conf.getInt(            CommonConfigurationKeys.SEQ_IO_SORT_FACTOR_KEY,            CommonConfigurationKeys.SEQ_IO_SORT_FACTOR_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[347] in File: org.apache.hadoop.crypto.key.kms.server.KMSAuthenticationFilter.java LineNum: 82 Method name: getValByRegex("hadoop\\.kms\\.proxyuser\\.")
+Inferred parameter values: hadoop\\.kms\\.proxyuser\\., 
+
+Found callsite[348] in File: org.apache.hadoop.ha.ZKFailoverController.java LineNum: 346 Method name: conf.get(ZK_AUTH_KEY)
+Inferred parameter values: ha.zookeeper.auth, 
+
+Found callsite[349] in File: org.apache.hadoop.io.compress.DefaultCodec.java LineNum: 66 Method name: conf.getInt(IO_FILE_BUFFER_SIZE_KEY,                                        IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[350] in File: org.apache.hadoop.ipc.Client.java LineNum: 1648 Method name: conf.getInt(          CommonConfigurationKeysPublic.IPC_CLIENT_CONNECTION_MAXIDLETIME_KEY,          CommonConfigurationKeysPublic.IPC_CLIENT_CONNECTION_MAXIDLETIME_DEFAULT)
+Inferred parameter values: ipc.client.connection.maxidletime, 
+
+Found callsite[351] in File: org.apache.hadoop.crypto.key.kms.server.EagerKeyGeneratorKeyProviderCryptoExtension.java LineNum: 101 Method name: conf.getInt(KMS_KEY_CACHE_NUM_REFILL_THREADS,                  KMS_KEY_CACHE_NUM_REFILL_THREADS_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[352] in File: org.apache.hadoop.ipc.Server.java LineNum: 700 Method name: conf.getClass(queueKeyName, null)
+Inferred parameter values: callqueue.impl, 
+
+Found callsite[353] in File: org.apache.hadoop.net.ScriptBasedMapping.java LineNum: 159 Method name: conf.get(SCRIPT_FILENAME_KEY)
+Inferred parameter values: 
+
+Found callsite[354] in File: org.apache.hadoop.security.authentication.util.ZKSignerSecretProvider.java LineNum: 444 Method name: javax.security.auth.login.Configuration.getConfiguration()
+Inferred parameter values: 
+
+Found callsite[355] in File: org.apache.hadoop.io.compress.GzipCodec.java LineNum: 121 Method name: conf.getInt(IO_FILE_BUFFER_SIZE_KEY,                                            IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[356] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 245 Method name: job.get("io.seqfile.compression.type")
+Inferred parameter values: io.seqfile.compression.type, 
+
+Found callsite[357] in File: org.apache.hadoop.ipc.Client.java LineNum: 1741 Method name: conf.getInt(            CommonConfigurationKeysPublic.IPC_CLIENT_CONNECT_RETRY_INTERVAL_KEY,            CommonConfigurationKeysPublic                .IPC_CLIENT_CONNECT_RETRY_INTERVAL_DEFAULT)
+Inferred parameter values: ipc.client.connect.retry.interval, 
+
+Found callsite[358] in File: org.apache.hadoop.crypto.JceAesCtrCryptoCodec.java LineNum: 64 Method name: conf.get(        HADOOP_SECURITY_JAVA_SECURE_RANDOM_ALGORITHM_KEY,         HADOOP_SECURITY_JAVA_SECURE_RANDOM_ALGORITHM_DEFAULT)
+Inferred parameter values: hadoop.security.java.secure.random.algorithm, SHA1PRNG, 
+
+Found callsite[359] in File: org.apache.hadoop.security.authorize.DefaultImpersonationProvider.java LineNum: 95 Method name: conf.getValByRegex(hostsRegEx)
+Inferred parameter values: [^.]*, 
+
+Found callsite[360] in File: org.apache.hadoop.security.UserGroupInformation.java LineNum: 887 Method name: conf.get(HADOOP_TOKEN_FILES)
+Inferred parameter values: hadoop.token.files, 
+
+Found callsite[361] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 632 Method name: conf.get(READ_TIMEOUT,          String.valueOf(READ_TIMEOUT_DEFAULT))
+Inferred parameter values: hadoop.security.group.mapping.ldap.read.timeout.ms, 
+
+Found callsite[362] in File: org.apache.hadoop.conf.ConfigRedactor.java LineNum: 44 Method name: conf.get(        HADOOP_SECURITY_SENSITIVE_CONFIG_KEYS,        HADOOP_SECURITY_SENSITIVE_CONFIG_KEYS_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[363] in File: org.apache.hadoop.security.SecurityUtil.java LineNum: 101 Method name: conf.getBoolean(        CommonConfigurationKeys            .HADOOP_SECURITY_DNS_LOG_SLOW_LOOKUPS_ENABLED_KEY,        CommonConfigurationKeys            .HADOOP_SECURITY_DNS_LOG_SLOW_LOOKUPS_ENABLED_DEFAULT)
+Inferred parameter values: hadoop.security.dns.log-slow-lookups.enabled, 
+
+Found callsite[364] in File: org.apache.hadoop.security.UserGroupInformation.java LineNum: 332 Method name: conf.getInts(HADOOP_USER_GROUP_METRICS_PERCENTILES_INTERVALS)
+Inferred parameter values: hadoop.user.group.metrics.percentiles.intervals, 
+
+Found callsite[365] in File: org.apache.hadoop.security.authentication.client.KerberosAuthenticator.java LineNum: 84 Method name: System.getProperty("os.arch")
+Inferred parameter values: os.arch, 
+
+Found callsite[366] in File: org.apache.hadoop.io.ObjectWritable.java LineNum: 373 Method name: conf.getClassByName(className)
+Inferred parameter values: 
+
+Found callsite[367] in File: org.apache.hadoop.http.HttpServer.java LineNum: 711 Method name: conf.get(keytabConfKey)
+Inferred parameter values: 
+
+Found callsite[368] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 873 Method name: config.getInt(IO_FILE_BUFFER_SIZE_KEY, IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[369] in File: org.apache.hadoop.conf.ReconfigurableBase.java LineNum: 235 Method name: get(property)
+Inferred parameter values: 
+
+Found callsite[370] in File: org.apache.hadoop.security.KDiag.java LineNum: 493 Method name: conf.get(HADOOP_TOKEN_FILES)
+Inferred parameter values: hadoop.token.files, 
+
+Found callsite[371] in File: org.apache.hadoop.crypto.key.KeyProvider.java LineNum: 385 Method name: conf.get(HADOOP_SECURITY_CRYPTO_JCEKS_KEY_SERIALFILTER,              JCEKS_KEY_SERIALFILTER_DEFAULT)
+Inferred parameter values: hadoop.security.crypto.jceks.key.serialfilter, java.lang.Enum;java.security.KeyRep;java.security.KeyRep$Type;javax.crypto.spec.SecretKeySpec;org.apache.hadoop.crypto.key.JavaKeyStoreProvider$KeyMetadata;!*, 
+
+Found callsite[372] in File: org.apache.hadoop.security.KDiag.java LineNum: 661 Method name: getTrimmed(KERBEROS_KINIT_COMMAND, "")
+Inferred parameter values: hadoop.kerberos.kinit.command, , 
+
+Found callsite[373] in File: org.apache.hadoop.io.DefaultStringifier.java LineNum: 191 Method name: conf.get(keyName)
+Inferred parameter values: 
+
+Found callsite[374] in File: org.apache.hadoop.util.JvmPauseMonitor.java LineNum: 79 Method name: conf.getLong(WARN_THRESHOLD_KEY, WARN_THRESHOLD_DEFAULT)
+Inferred parameter values: jvm.pause.warn-threshold.ms, 
+
+Found callsite[375] in File: org.apache.hadoop.io.compress.ZStandardCodec.java LineNum: 89 Method name: conf.getInt(        CommonConfigurationKeys.IO_COMPRESSION_CODEC_ZSTD_LEVEL_KEY,        CommonConfigurationKeys.IO_COMPRESSION_CODEC_ZSTD_LEVEL_DEFAULT)
+Inferred parameter values: io.compression.codec.zstd.level, 
+
+Found callsite[376] in File: org.apache.hadoop.fs.ChecksumFileSystem.java LineNum: 116 Method name: getInt(                       LocalFileSystemConfigKeys.LOCAL_FS_STREAM_BUFFER_SIZE_KEY,                       LocalFileSystemConfigKeys.LOCAL_FS_STREAM_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: file.stream-buffer-size, 
+
+Found callsite[377] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 701 Method name: conf.get(MEMBEROF_ATTR_KEY, MEMBEROF_ATTR_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.search.attr.memberof, , 
+
+Found callsite[378] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 976 Method name: getInt(IO_FILE_BUFFER_SIZE_KEY,                      IO_FILE_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: io.file.buffer.size, 
+
+Found callsite[379] in File: org.apache.hadoop.ha.ZKFailoverController.java LineNum: 334 Method name: conf.get(ZK_QUORUM_KEY)
+Inferred parameter values: ha.zookeeper.quorum, 
+
+Found callsite[380] in File: org.apache.hadoop.security.SaslRpcClient.java LineNum: 307 Method name: conf.get(serverKey + ".pattern")
+Inferred parameter values: .pattern, 
+
+Found callsite[381] in File: org.apache.hadoop.crypto.key.kms.server.KMSACLs.java LineNum: 178 Method name: conf.get(confKey)
+Inferred parameter values: 
+
+Found callsite[382] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 217 Method name: config.get(ZK_DTSM_ZK_KERBEROS_KEYTAB, "")
+Inferred parameter values: zk-dt-secret-manager.kerberos.keytab, , 
+
+Found callsite[383] in File: org.apache.hadoop.conf.ReconfigurableBase.java LineNum: 225 Method name: get(property)
+Inferred parameter values: 
+
+Found callsite[384] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 706 Method name: conf.get(GROUP_MEMBERSHIP_ATTR_KEY, GROUP_MEMBERSHIP_ATTR_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.search.attr.member, member, 
+
+Found callsite[385] in File: org.apache.hadoop.fs.ChecksumFileSystem.java LineNum: 65 Method name: conf.getInt(LocalFileSystemConfigKeys.LOCAL_FS_BYTES_PER_CHECKSUM_KEY,		                     LocalFileSystemConfigKeys.LOCAL_FS_BYTES_PER_CHECKSUM_DEFAULT)
+Inferred parameter values: file.bytes-per-checksum, 
+
+Found callsite[386] in File: org.apache.hadoop.net.SocksSocketFactory.java LineNum: 138 Method name: conf.get(HADOOP_SOCKS_SERVER_KEY)
+Inferred parameter values: hadoop.socks.server, 
+
+Found callsite[387] in File: org.apache.hadoop.crypto.key.KeyShell.java LineNum: 294 Method name: getBoolean(LIST_METADATA, false)
+Inferred parameter values: 
+
+Found callsite[388] in File: org.apache.hadoop.util.ReflectionUtils.java LineNum: 96 Method name: conf.getClassByNameOrNull("org.apache.hadoop.mapred.JobConf")
+Inferred parameter values: org.apache.hadoop.mapred.JobConf, 
+
+Found callsite[389] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 681 Method name: conf.get(BIND_PASSWORD_FILE_KEY, BIND_PASSWORD_FILE_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.bind.password.file, , 
+
+Found callsite[390] in File: org.apache.hadoop.ipc.Client.java LineNum: 1738 Method name: conf.getInt(            CommonConfigurationKeysPublic.IPC_CLIENT_CONNECT_MAX_RETRIES_KEY,            CommonConfigurationKeysPublic.IPC_CLIENT_CONNECT_MAX_RETRIES_DEFAULT)
+Inferred parameter values: ipc.client.connect.max.retries, 
+
+Found callsite[391] in File: org.apache.hadoop.fs.sftp.SFTPFileSystem.java LineNum: 125 Method name: conf.get(FS_SFTP_USER_PREFIX + host)
+Inferred parameter values: 
+
+Found callsite[392] in File: org.apache.hadoop.crypto.key.kms.KMSClientProvider.java LineNum: 473 Method name: conf.getInt(                CommonConfigurationKeysPublic.                    KMS_CLIENT_ENC_KEY_CACHE_NUM_REFILL_THREADS,                CommonConfigurationKeysPublic.                    KMS_CLIENT_ENC_KEY_CACHE_NUM_REFILL_THREADS_DEFAULT)
+Inferred parameter values: hadoop.security.kms.client.encrypted.key.cache.num.refill.threads, 
+
+Found callsite[393] in File: org.apache.hadoop.crypto.key.kms.KMSClientProvider.java LineNum: 455 Method name: conf.getInt(AUTH_RETRY, DEFAULT_AUTH_RETRY)
+Inferred parameter values: hadoop.security.kms.client.authentication.retry-count, 
+
+Found callsite[394] in File: org.apache.hadoop.security.SaslRpcClient.java LineNum: 321 Method name: conf.get(serverKey)
+Inferred parameter values: 
+
+Found callsite[395] in File: org.apache.hadoop.io.compress.CompressionCodecFactory.java LineNum: 132 Method name: conf.getClassByName(codecSubstring)
+Inferred parameter values: 
+
+Found callsite[396] in File: org.apache.hadoop.fs.ftp.FTPFileSystem.java LineNum: 117 Method name: conf.get(FS_FTP_USER_PREFIX + host, null)
+Inferred parameter values: 
+
+Found callsite[397] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 2806 Method name: conf.get(CommonConfigurationKeys.IO_SORT_FACTOR_KEY)
+Inferred parameter values: 
+
+Found callsite[398] in File: org.apache.hadoop.net.ScriptBasedMappingWithDependency.java LineNum: 134 Method name: conf.get(DEPENDENCY_SCRIPT_FILENAME_KEY)
+Inferred parameter values: 
+
+Found callsite[399] in File: org.apache.hadoop.security.authentication.util.ZKSignerSecretProvider.java LineNum: 470 Method name: getKrb5LoginModuleName()
+Inferred parameter values: 
+
+Found callsite[400] in File: org.apache.hadoop.ha.ZKFailoverController.java LineNum: 362 Method name: conf.getInt(        CommonConfigurationKeys.HA_FC_ELECTOR_ZK_OP_RETRIES_KEY,        CommonConfigurationKeys.HA_FC_ELECTOR_ZK_OP_RETRIES_DEFAULT)
+Inferred parameter values: ha.failover-controller.active-standby-elector.zk.op.retries, 
+
+Found callsite[401] in File: org.apache.hadoop.crypto.key.kms.KMSClientProvider.java LineNum: 463 Method name: conf.getFloat(                CommonConfigurationKeysPublic.                    KMS_CLIENT_ENC_KEY_CACHE_LOW_WATERMARK,                CommonConfigurationKeysPublic.                    KMS_CLIENT_ENC_KEY_CACHE_LOW_WATERMARK_DEFAULT)
+Inferred parameter values: hadoop.security.kms.client.encrypted.key.cache.low-watermark, 
+
+Found callsite[402] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 870 Method name: config.getInt("io.bytes.per.checksum", 512)
+Inferred parameter values: io.bytes.per.checksum, 
+
+Found callsite[403] in File: org.apache.hadoop.security.ssl.SSLFactory.java LineNum: 120 Method name: conf.getStrings(SSL_ENABLED_PROTOCOLS_KEY,        SSL_ENABLED_PROTOCOLS_DEFAULT)
+Inferred parameter values: hadoop.ssl.enabled.protocols, TLSv1,SSLv2Hello,TLSv1.1,TLSv1.2, 
+
+Found callsite[404] in File: org.apache.hadoop.security.token.delegation.web.DelegationTokenManager.java LineNum: 119 Method name: conf.getBoolean(ENABLE_ZK_KEY, false)
+Inferred parameter values: zk-dt-secret-manager.enable, 
+
+Found callsite[405] in File: org.apache.hadoop.net.NetUtils.java LineNum: 118 Method name: conf.get(        CommonConfigurationKeysPublic.HADOOP_RPC_SOCKET_FACTORY_CLASS_DEFAULT_KEY,        CommonConfigurationKeysPublic.HADOOP_RPC_SOCKET_FACTORY_CLASS_DEFAULT_DEFAULT)
+Inferred parameter values: hadoop.rpc.socket.factory.class.default, org.apache.hadoop.net.StandardSocketFactory, 
+
+Found callsite[406] in File: org.apache.hadoop.crypto.key.kms.KMSClientProvider.java LineNum: 459 Method name: conf.getInt(                CommonConfigurationKeysPublic.KMS_CLIENT_ENC_KEY_CACHE_SIZE,                CommonConfigurationKeysPublic.                    KMS_CLIENT_ENC_KEY_CACHE_SIZE_DEFAULT)
+Inferred parameter values: hadoop.security.kms.client.encrypted.key.cache.size, 
+
+Found callsite[407] in File: org.apache.hadoop.io.retry.RetryUtils.java LineNum: 195 Method name: conf.get(retryPolicySpecKey, defaultRetryPolicySpec)
+Inferred parameter values: 
+
+Found callsite[408] in File: org.apache.hadoop.fs.TrashPolicyDefault.java LineNum: 90 Method name: conf.getFloat(        FS_TRASH_CHECKPOINT_INTERVAL_KEY, FS_TRASH_CHECKPOINT_INTERVAL_DEFAULT)
+Inferred parameter values: fs.trash.checkpoint.interval, 
+
+Found callsite[409] in File: org.apache.hadoop.fs.TrashPolicyDefault.java LineNum: 98 Method name: conf.getFloat(        FS_TRASH_INTERVAL_KEY, FS_TRASH_INTERVAL_DEFAULT)
+Inferred parameter values: fs.trash.interval, 
+
+Found callsite[410] in File: org.apache.hadoop.io.MapFile.java LineNum: 401 Method name: conf.getInt(          IO_MAP_INDEX_SKIP_KEY, IO_MAP_INDEX_SKIP_DEFAULT)
+Inferred parameter values: io.map.index.skip, 
+
+Found callsite[411] in File: org.apache.hadoop.fs.LocalFileSystem.java LineNum: 104 Method name: getMount()
+Inferred parameter values: 
+
+Found callsite[412] in File: org.apache.hadoop.http.HttpServer2.java LineNum: 618 Method name: conf.getBoolean(          CommonConfigurationKeys.HADOOP_JETTY_LOGS_SERVE_ALIASES,          CommonConfigurationKeys.DEFAULT_HADOOP_JETTY_LOGS_SERVE_ALIASES)
+Inferred parameter values: hadoop.jetty.logs.serve.aliases, 
+
+Found callsite[413] in File: org.apache.hadoop.security.SaslRpcClient.java LineNum: 319 Method name: conf.get(serverKey)
+Inferred parameter values: 
+
+Found callsite[414] in File: org.apache.hadoop.security.HttpCrossOriginFilterInitializer.java LineNum: 57 Method name: conf.getValByRegex(prefix)
+Inferred parameter values: 
+
+Found callsite[415] in File: org.apache.hadoop.ipc.Server.java LineNum: 2984 Method name: conf.getInt(        CommonConfigurationKeys.IPC_SERVER_RPC_READ_CONNECTION_QUEUE_SIZE_KEY,        CommonConfigurationKeys.IPC_SERVER_RPC_READ_CONNECTION_QUEUE_SIZE_DEFAULT)
+Inferred parameter values: ipc.server.read.connection-queue.size, 
+
+Found callsite[416] in File: org.apache.hadoop.http.HttpServer.java LineNum: 689 Method name: sslConf.get(          "ssl.server.truststore.type", "jks")
+Inferred parameter values: ssl.server.truststore.type, jks, 
+
+Found callsite[417] in File: org.apache.hadoop.security.authorize.ServiceAuthorizationManager.java LineNum: 172 Method name: conf.get(     defaultServiceHostsKey+ BLOCKED, "")
+Inferred parameter values: .blocked, , 
+
+Found callsite[418] in File: org.apache.hadoop.ipc.Client.java LineNum: 1316 Method name: conf.getBoolean(CommonConfigurationKeys.IPC_CLIENT_FALLBACK_TO_SIMPLE_AUTH_ALLOWED_KEY,        CommonConfigurationKeys.IPC_CLIENT_FALLBACK_TO_SIMPLE_AUTH_ALLOWED_DEFAULT)
+Inferred parameter values: ipc.client.fallback-to-simple-auth-allowed, 
+
+Found callsite[419] in File: org.apache.hadoop.io.MapFile.java LineNum: 782 Method name: conf.getInt(Writer.INDEX_INTERVAL, 128)
+Inferred parameter values: 
+
+Found callsite[420] in File: org.apache.hadoop.http.HttpServer.java LineNum: 687 Method name: sslConf.get(          "ssl.server.truststore.password", "")
+Inferred parameter values: ssl.server.truststore.password, , 
+
+Found callsite[421] in File: org.apache.hadoop.fs.GetSpaceUsed.java LineNum: 125 Method name: configuration.getLong(CommonConfigurationKeys.FS_GETSPACEUSED_JITTER_KEY,                CommonConfigurationKeys.FS_GETSPACEUSED_JITTER_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[422] in File: org.apache.hadoop.security.KDiag.java LineNum: 683 Method name: getClass(          saslPropsResolverKey,          SaslPropertiesResolver.class,          SaslPropertiesResolver.class)
+Inferred parameter values: 
+
+Found callsite[423] in File: org.apache.hadoop.util.curator.ZKCuratorManager.java LineNum: 87 Method name: conf.get(CommonConfigurationKeys.ZK_ACL,        CommonConfigurationKeys.ZK_ACL_DEFAULT)
+Inferred parameter values: hadoop.zk.acl, world:anyone:rwcda, 
+
+Found callsite[424] in File: org.apache.hadoop.crypto.key.KeyProvider.java LineNum: 317 Method name: conf.get(DEFAULT_CIPHER_NAME, DEFAULT_CIPHER)
+Inferred parameter values: 
+
+Found callsite[425] in File: org.apache.hadoop.http.HttpServer2.java LineNum: 611 Method name: conf.getBoolean(        CommonConfigurationKeys.HADOOP_HTTP_LOGS_ENABLED,        CommonConfigurationKeys.HADOOP_HTTP_LOGS_ENABLED_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[426] in File: org.apache.hadoop.security.ShellBasedIdMapping.java LineNum: 108 Method name: conf.getLong(        IdMappingConstant.USERGROUPID_UPDATE_MILLIS_KEY,        IdMappingConstant.USERGROUPID_UPDATE_MILLIS_DEFAULT)
+Inferred parameter values: usergroupid.update.millis, 
+
+Found callsite[427] in File: org.apache.hadoop.security.authentication.client.KerberosAuthenticator.java LineNum: 85 Method name: System.getProperty("os.name")
+Inferred parameter values: os.name, 
+
+Found callsite[428] in File: org.apache.hadoop.ipc.Server.java LineNum: 2980 Method name: conf.getInt(          CommonConfigurationKeys.IPC_SERVER_RPC_READ_THREADS_KEY,          CommonConfigurationKeys.IPC_SERVER_RPC_READ_THREADS_DEFAULT)
+Inferred parameter values: ipc.server.read.threadpool.size, 
+
+Found callsite[429] in File: org.apache.hadoop.io.WritableName.java LineNum: 75 Method name: conf.getClassByName(name)
+Inferred parameter values: 
+
+Found callsite[430] in File: org.apache.hadoop.fs.ChecksumFileSystem.java LineNum: 139 Method name: getInt(                       LocalFileSystemConfigKeys.LOCAL_FS_STREAM_BUFFER_SIZE_KEY,                        LocalFileSystemConfigKeys.LOCAL_FS_STREAM_BUFFER_SIZE_DEFAULT)
+Inferred parameter values: file.stream-buffer-size, 
+
+Found callsite[431] in File: org.apache.hadoop.io.BloomMapFile.java LineNum: 167 Method name: conf.getInt(          IO_MAPFILE_BLOOM_SIZE_KEY, IO_MAPFILE_BLOOM_SIZE_DEFAULT)
+Inferred parameter values: io.mapfile.bloom.size, 
+
+Found callsite[432] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 194 Method name: conf.get(ZK_DTSM_ZNODE_WORKING_PATH,                        ZK_DTSM_ZNODE_WORKING_PATH_DEAFULT)
+Inferred parameter values: zk-dt-secret-manager.znodeWorkingPath, zkdtsm, 
+
+Found callsite[433] in File: org.apache.hadoop.crypto.key.kms.server.KMSWebApp.java LineNum: 183 Method name: kmsConf.get(KMSConfiguration.KEY_PROVIDER_URI)
+Inferred parameter values: hadoop.kms.key.provider.uri, 
+
+Found callsite[434] in File: org.apache.hadoop.io.serializer.SerializationFactory.java LineNum: 71 Method name: conf.getClassByName(serializationName)
+Inferred parameter values: 
+
+Found callsite[435] in File: org.apache.hadoop.security.token.delegation.ZKDelegationTokenSecretManager.java LineNum: 145 Method name: conf.getLong(DelegationTokenManager.REMOVAL_SCAN_INTERVAL,            DelegationTokenManager.REMOVAL_SCAN_INTERVAL_DEFAULT)
+Inferred parameter values: delegation-token.removal-scan-interval.sec, 
+
+Found callsite[436] in File: org.apache.hadoop.ipc.Server.java LineNum: 3014 Method name: conf.getBoolean(        CommonConfigurationKeysPublic.IPC_SERVER_LOG_SLOW_RPC,        CommonConfigurationKeysPublic.IPC_SERVER_LOG_SLOW_RPC_DEFAULT)
+Inferred parameter values: ipc.server.log.slow.rpc, 
+
+Found callsite[437] in File: org.apache.hadoop.fs.GetSpaceUsed.java LineNum: 66 Method name: conf.getLong(CommonConfigurationKeys.FS_DU_INTERVAL_KEY, result)
+Inferred parameter values: 
+
+Found callsite[438] in File: org.apache.hadoop.util.ReflectionUtils.java LineNum: 102 Method name: conf.getClassByNameOrNull("org.apache.hadoop.mapred.JobConfigurable")
+Inferred parameter values: org.apache.hadoop.mapred.JobConfigurable, 
+
+Found callsite[439] in File: org.apache.hadoop.security.WhitelistBasedResolver.java LineNum: 94 Method name: conf.get(HADOOP_SECURITY_SASL_FIXEDWHITELIST_FILE,        FIXEDWHITELIST_DEFAULT_LOCATION)
+Inferred parameter values: hadoop.security.sasl.fixedwhitelist.file, /etc/hadoop/fixedwhitelist, 
+
+Found callsite[440] in File: org.apache.hadoop.security.authentication.util.ZKSignerSecretProvider.java LineNum: 478 Method name: baseConfig.getAppConfigurationEntry(name)
+Inferred parameter values: 
+
+Found callsite[441] in File: org.apache.hadoop.security.LdapGroupsMapping.java LineNum: 695 Method name: conf.get(GROUP_SEARCH_FILTER_KEY, GROUP_SEARCH_FILTER_DEFAULT)
+Inferred parameter values: hadoop.security.group.mapping.ldap.search.filter.group, (objectClass=group), 
+
+Found callsite[442] in File: org.apache.hadoop.crypto.key.kms.server.KMSACLs.java LineNum: 225 Method name: conf.get(Type.CREATE.getAclConfigKey())
+Inferred parameter values: 
+
+Found callsite[443] in File: org.apache.hadoop.ipc.CallQueueManager.java LineNum: 320 Method name: conf.getInt(ns + "." +        FairCallQueue.IPC_CALLQUEUE_PRIORITY_LEVELS_KEY, 0)
+Inferred parameter values: faircallqueue.priority-levels, 
+
+Found callsite[444] in File: org.apache.hadoop.fs.FileSystem.java LineNum: 281 Method name: conf.getBoolean(        CommonConfigurationKeysPublic.FS_CLIENT_RESOLVE_REMOTE_SYMLINKS_KEY,        CommonConfigurationKeysPublic.FS_CLIENT_RESOLVE_REMOTE_SYMLINKS_DEFAULT)
+Inferred parameter values: fs.client.resolve.remote.symlinks, 
+
+Found callsite[445] in File: org.apache.hadoop.crypto.key.kms.LoadBalancingKMSClientProvider.java LineNum: 90 Method name: conf.getInt(CommonConfigurationKeysPublic.        KMS_CLIENT_FAILOVER_MAX_RETRIES_KEY, providers.length)
+Inferred parameter values: hadoop.security.kms.client.failover.max.retries, 
+
+Found callsite[446] in File: org.apache.hadoop.ha.HealthMonitor.java LineNum: 127 Method name: conf.getInt(        HA_HM_RPC_TIMEOUT_KEY,        HA_HM_RPC_TIMEOUT_DEFAULT)
+Inferred parameter values: ha.health-monitor.rpc-timeout.ms, 
+
+Found callsite[447] in File: org.apache.hadoop.conf.ReconfigurationServlet.java LineNum: 154 Method name: newConf.getRaw(param)
+Inferred parameter values: 
+
+Found callsite[448] in File: org.apache.hadoop.ha.ZKFailoverController.java LineNum: 335 Method name: conf.getInt(ZK_SESSION_TIMEOUT_KEY,        ZK_SESSION_TIMEOUT_DEFAULT)
+Inferred parameter values: ha.zookeeper.session-timeout.ms, 
+
+Found callsite[449] in File: org.apache.hadoop.ipc.Server.java LineNum: 322 Method name: conf.getClassByName(protocolName)
+Inferred parameter values: 
+
+Found callsite[450] in File: org.apache.hadoop.security.AuthenticationFilterInitializer.java LineNum: 76 Method name: conf.get(name)
+Inferred parameter values: 
+
+Found callsite[451] in File: org.apache.hadoop.security.SaslPropertiesResolver.java LineNum: 139 Method name: conf.getStrings(configKey, defaultQOP.toString())
+Inferred parameter values: 
+
+Found callsite[452] in File: org.apache.hadoop.fs.ftp.FTPFileSystem.java LineNum: 208 Method name: conf.get(FS_FTP_DATA_CONNECTION_MODE)
+Inferred parameter values: fs.ftp.data.connection.mode, 
+
+Found callsite[453] in File: org.apache.hadoop.crypto.key.kms.server.KMSWebApp.java LineNum: 207 Method name: kmsConf.getBoolean(KMSConfiguration.KEY_AUTHORIZATION_ENABLE,          KMSConfiguration.KEY_AUTHORIZATION_ENABLE_DEFAULT)
+Inferred parameter values: hadoop.kms.key.authorization.enable, 
+
+Found callsite[454] in File: org.apache.hadoop.util.JvmPauseMonitor.java LineNum: 80 Method name: conf.getLong(INFO_THRESHOLD_KEY, INFO_THRESHOLD_DEFAULT)
+Inferred parameter values: jvm.pause.info-threshold.ms, 
+
+Found callsite[455] in File: org.apache.hadoop.net.NetUtils.java LineNum: 140 Method name: conf.getClassByName(propValue)
+Inferred parameter values: 
+
+Found callsite[456] in File: org.apache.hadoop.http.HttpServer2.java LineNum: 1231 Method name: conf.getBoolean(        CommonConfigurationKeys.HADOOP_SECURITY_AUTHORIZATION, false)
+Inferred parameter values: 
+
+Found callsite[457] in File: org.apache.hadoop.io.SequenceFile.java LineNum: 1524 Method name: conf.getInt(IO_SEQFILE_COMPRESS_BLOCKSIZE_KEY,            IO_SEQFILE_COMPRESS_BLOCKSIZE_DEFAULT        )
+Inferred parameter values: io.seqfile.compress.blocksize, 
+
+Found callsite[458] in File: org.apache.hadoop.security.ssl.SSLFactory.java LineNum: 137 Method name: conf.get(SSL_SERVER_CONF_KEY, "ssl-server.xml")
+Inferred parameter values: hadoop.ssl.server.conf, ssl-server.xml, 
+
+Found callsite[459] in File: org.apache.hadoop.ha.FailoverController.java LineNum: 83 Method name: conf.getInt(        CommonConfigurationKeys.HA_FC_GRACEFUL_FENCE_TIMEOUT_KEY,        CommonConfigurationKeys.HA_FC_GRACEFUL_FENCE_TIMEOUT_DEFAULT)
+Inferred parameter values: ha.failover-controller.graceful-fence.rpc-timeout.ms, 
+
+Found callsite[460] in File: org.apache.hadoop.security.authentication.client.KerberosAuthenticator.java LineNum: 136 Method name: KerberosUtil.getKrb5LoginModuleName()
+Inferred parameter values: 
+
+Found callsite[461] in File: org.apache.hadoop.security.Groups.java LineNum: 116 Method name: conf.getLong(CommonConfigurationKeys.HADOOP_SECURITY_GROUPS_NEGATIVE_CACHE_SECS,          CommonConfigurationKeys.HADOOP_SECURITY_GROUPS_NEGATIVE_CACHE_SECS_DEFAULT)
+Inferred parameter values: 
+
+Found callsite[462] in File: org.apache.hadoop.ha.HealthMonitor.java LineNum: 124 Method name: conf.getLong(        HA_HM_CONNECT_RETRY_INTERVAL_KEY,        HA_HM_CONNECT_RETRY_INTERVAL_DEFAULT)
+Inferred parameter values: ha.health-monitor.connect-retry-interval.ms, 
+
+Found callsite[463] in File: org.apache.hadoop.ipc.Server.java LineNum: 3583 Method name: conf.getInt(          CommonConfigurationKeysPublic.IPC_SERVER_MAX_CONNECTIONS_KEY,          CommonConfigurationKeysPublic.IPC_SERVER_MAX_CONNECTIONS_DEFAULT)
+Inferred parameter values: ipc.server.max.connections, 
+
+Found callsite[464] in File: org.apache.hadoop.ipc.Client.java LineNum: 252 Method name: conf.getBoolean(CommonConfigurationKeys.IPC_CLIENT_PING_KEY,        CommonConfigurationKeys.IPC_CLIENT_PING_DEFAULT)
+Inferred parameter values: ipc.client.ping, 
+
+Found callsite[465] in File: org.apache.hadoop.security.authorize.ServiceAuthorizationManager.java LineNum: 186 Method name: conf.get(service.getServiceKey() + BLOCKED,           defaultBlockedAcl)
+Inferred parameter values: .blocked, 
+
+Found callsite[466] in File: org.apache.hadoop.ipc.Server.java LineNum: 603 Method name: conf.getRange(rangeConf, "")
+Inferred parameter values: , 
+
+Found callsite[467] in File: org.apache.hadoop.security.WhitelistBasedResolver.java LineNum: 99 Method name: conf.getBoolean(HADOOP_SECURITY_SASL_VARIABLEWHITELIST_ENABLE, false)
+Inferred parameter values: hadoop.security.sasl.variablewhitelist.enable, 
+
+Found callsite[468] in File: org.apache.hadoop.http.HttpServer.java LineNum: 697 Method name: sslConf.get("ssl.server.keystore.keypassword", "")
+Inferred parameter values: ssl.server.keystore.keypassword, , 
+

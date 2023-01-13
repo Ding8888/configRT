@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="activation-1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/audience-annotations-0.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/avro-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-beanutils-1.9.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/api-asn1-api-1.0.0-M20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/asm-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/api-util-1.0.0-M20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/apacheds-kerberos-codec-2.0.0-M15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/apacheds-i18n-2.0.0-M15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-cli-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-codec-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-compress-1.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-configuration-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-digester-1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-lib/commons-lang-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
